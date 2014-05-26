@@ -1,0 +1,21 @@
+## Interface: 50400
+## Title: Ackis Recipe List: Alchemy
+## Notes: Alchemy data for Ackis Recipe List.
+## Author: Ackis, Pompy, Ressy, Torhal
+## Version: @project-version@
+## X-Revision: @project-abbreviated-hash@
+## X-Date: @file-date-iso@
+## Dependencies: AckisRecipeList
+## LoadOnDemand: 1
+
+#@no-lib-strip@
+# Libraries
+embeds.xml
+#@end-no-lib-strip@
+
+Core.lua
+Filters.lua
+Trainers.lua
+Recipes.lua
+
+
