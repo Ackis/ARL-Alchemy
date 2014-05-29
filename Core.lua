@@ -49,5 +49,9 @@ function module:OnInitialize()
 end
 
 function module:OnEnable()
+	self:InitializeDiscoveries()
+	self:InitializeMobDrops()
+	self:InitializeTrainers()
+	self:InitializeVendors()
 	self:InitializeRecipes()
 end

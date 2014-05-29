@@ -30,7 +30,6 @@ function module:InitializeRecipes()
 	local function AddRecipe(spell_id, genesis, quality)
 		return private.addon:AddRecipe(spell_id, constants.PROFESSION_SPELL_IDS.ALCHEMY, genesis, quality)
 	end
-	self:InitializeTrainers()
 
 	local recipe
 

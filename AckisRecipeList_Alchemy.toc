@@ -15,7 +15,8 @@ embeds.xml
 
 Core.lua
 Filters.lua
+Discoveries.lua
+MobDrops.lua
 Trainers.lua
+Vendors.lua
 Recipes.lua
-
-
