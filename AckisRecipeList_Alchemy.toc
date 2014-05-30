@@ -17,6 +17,7 @@ Core.lua
 Filters.lua
 Discoveries.lua
 MobDrops.lua
+Quests.lua
 Trainers.lua
 Vendors.lua
 Recipes.lua
