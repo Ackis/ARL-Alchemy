@@ -8,11 +8,6 @@
 ## Dependencies: AckisRecipeList
 ## LoadOnDemand: 1
 
-#@no-lib-strip@
-# Libraries
-embeds.xml
-#@end-no-lib-strip@
-
 Core.lua
 Filters.lua
 Discoveries.lua
