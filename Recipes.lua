@@ -2777,5 +2777,217 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 56777, 65186)
 
+	-------------------------------------------------------------------------------
+	-- Warlords of Draenor.
+	-------------------------------------------------------------------------------
+	-- Draenic Philosopher's Stone -- 156560
+	recipe = AddRecipe(156560, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetCraftedItem(109262, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_TRINKET")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddCustom("DRAENOR_DEFAULT")
+
+	-- Draenic Critical Strike Flask -- 156561
+	recipe = AddRecipe(156561, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112024, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109145, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Haste Flask -- 156562
+	recipe = AddRecipe(156562, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112025, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109146, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Mastery Flask -- 156563
+	recipe = AddRecipe(156563, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112026, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109147, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Multi-Strike Flask -- 156564
+	recipe = AddRecipe(156564, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112027, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109148, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Versatility Flask -- 156565
+	recipe = AddRecipe(156565, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(113625, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109149, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Stamina Flask -- 156568
+	recipe = AddRecipe(156568, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112030, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109152, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Greater Draenic Critical Strike Flask -- 156569
+	recipe = AddRecipe(156569, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112031, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109153, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
+	recipe:AddVendor(77363, 79813)
+
+	-- Greater Draenic Haste Flask -- 156570
+	recipe = AddRecipe(156570, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112032, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109154, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
+	recipe:AddVendor(77363, 79813)
+
+	-- Greater Draenic Mastery Flask -- 156571
+	recipe = AddRecipe(156571, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112033, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109155, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Greater Draenic Multi-Strike Flask -- 156572
+	recipe = AddRecipe(156572, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112034, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109156, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Greater Draenic Versatility Flask -- 156573
+	recipe = AddRecipe(156573, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(113626, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109157, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Greater Draenic Stamina Flask -- 156576
+	recipe = AddRecipe(156576, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 705, 710)
+	recipe:SetRecipeItem(112037, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109160, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_FLASK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Agility Potion -- 156577
+	recipe = AddRecipe(156577, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(112038, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109217, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Intellect Potion -- 156578
+	recipe = AddRecipe(156578, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(112039, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109218, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Strength Potion -- 156579
+	recipe = AddRecipe(156579, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(112040, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109219, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Armor Potion -- 156580
+	recipe = AddRecipe(156580, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(112041, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109220, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.TANK)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Channeled Mana Potion -- 156581
+	recipe = AddRecipe(156581, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(112042, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109221, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Mana Potion -- 156582
+	recipe = AddRecipe(156582, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(112043, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109222, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Draenic Rejuvenation Potion -- 156584
+	recipe = AddRecipe(156584, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(112045, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(109226, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Crescent Oil -- 156585
+	recipe = AddRecipe(156585, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 500, 500, 500)
+	recipe:SetCraftedItem(109123, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_OIL")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddCustom("DRAENOR_DEFAULT")
+
+	-- Alchemical Catalyst -- 156587
+	recipe = AddRecipe(156587, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Transmorphic Tincture -- 162403
+	recipe = AddRecipe(162403, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 600, 600)
+	recipe:SetRecipeItem(112047, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(112090, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_MISC")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77363, 79813)
+
+	-- Alchemical Catalyst -- 168042
+	recipe = AddRecipe(168042, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 800, 1000)
+	recipe:SetCraftedItem(108996, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_MISC")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddCustom("DRAENOR_DEFAULT")
+
 	self.InitializeRecipes = nil
 end

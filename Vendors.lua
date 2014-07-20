@@ -50,6 +50,8 @@ function module:InitializeVendors()
 	AddVendor(19042,	L["Leeli Longhaggle"],			Z.TEROKKAR_FOREST,		57.7,	53.4,	"Alliance")
 	AddVendor(19074,	L["Skreah"],				Z.SHATTRATH_CITY,		46.0,	20.1,	"Neutral")
 	AddVendor(19837,	L["Daga Ramba"],			Z.BLADES_EDGE_MOUNTAINS,	51.1,	57.7,	"Horde")
+	AddVendor(77363,	L["Mary Kearie"],			Z.LUNARFALL,			0,	0,	"Alliance") -- In Garrison
+	AddVendor(79813,	L["Albert de Hyde"],			Z.FROSTWALL,			0,	0,	"Horde") -- In Garrison
 
 	self.InitializeVendors = nil
 end
