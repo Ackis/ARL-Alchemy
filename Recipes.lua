@@ -1165,6 +1165,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.NAGRAND)
 	recipe:AddRepVendor(FAC.KURENAI, REP.REVERED, 20240)
+	recipe:AddRepVendor(FAC.MAGHAR, REP.REVERED, 20241)
 
 	-- Transmute: Primal Water to Air -- 28569
 	recipe = AddRecipe(28569, V.TBC, Q.UNCOMMON)
