@@ -52,6 +52,8 @@ function module:InitializeVendors()
 	AddVendor(19837,	L["Daga Ramba"],			Z.BLADES_EDGE_MOUNTAINS,	51.1,	57.7,	"Horde")
 	AddVendor(77363,	L["Mary Kearie"],			Z.LUNARFALL,			0,	0,	"Alliance") -- In Garrison
 	AddVendor(79813,	L["Albert de Hyde"],			Z.FROSTWALL,			0,	0,	"Horde") -- In Garrison
+	AddVendor(87048,	L["Katherine Joplin"],			Z.STORMSHIELD,			36.4,	69.0,	"Alliance")
+	AddVendor(87542,	L["Joshua Alvarez"],			Z.WARSPEAR,			60.8,	27.4,	"Horde")
 
 	self.InitializeVendors = nil
 end
