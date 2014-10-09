@@ -57,6 +57,7 @@ function module:InitializeTrainers()
 	addon:AddTrainer(56777, "Ni Gentlepaw", Z.THE_JADE_FOREST, 46.6, 46, "Neutral")
 	addon:AddTrainer(65186, "Poisoncrafter Kil'zit", Z.DREAD_WASTES, 55.6, 32.3, "Neutral")
 	addon:AddTrainer(85905, "Jaiden Trask", Z.STORMSHIELD, 37.0, 69.6, "Alliance")
+	addon:AddTrainer(86009, "Kristoph Cossey", Z.WARSPEAR, 60.8, 27.6, "Horde")
 
 	self.InitializeTrainers = nil
 end
