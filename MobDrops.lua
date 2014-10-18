@@ -26,7 +26,7 @@ function module:InitializeMobDrops()
 
 	AddMob(1853,	BN.DARKMASTER_GANDLING,			Z.SCHOLOMANCE,			0, 0)
 	AddMob(9262,	L["Firebrand Invoker"],			Z.BLACKROCK_SPIRE,		0, 0)
-	AddMob(17150,	L["Vir'aani Arcanist"],			Z.NAGRAND,			40.5, 69.6)
+	AddMob(17150,	L["Vir'aani Arcanist"],			Z.NAGRAND_OUTLAND,		40.5, 69.6)
 	AddMob(17862,	BN.CAPTAIN_SKARLOC,			Z.OLD_HILLSBRAD_FOOTHILLS,	0, 0)
 	AddMob(18344,	BN.NEXUS_PRINCE_SHAFFAR,		Z.MANA_TOMBS,			0, 0)
 	AddMob(19221,	BN.NETHERMANCER_SEPETHREA,		Z.THE_MECHANAR,			0, 0)
