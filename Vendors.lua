@@ -29,6 +29,7 @@ function module:InitializeVendors()
 			coord_y = coordY,
 			faction = faction,
 			identifier = vendorID,
+			item_list = {},
 			location = zoneName,
 			name = vendorName,
 		})

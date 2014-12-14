@@ -28,6 +28,7 @@ function module:InitializeTrainers()
 			coord_y = coordY,
 			faction = faction,
 			identifier = trainerID,
+			item_list = {},
 			location = zoneName,
 			name = trainerName,
 		})
