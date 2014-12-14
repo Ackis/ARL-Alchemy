@@ -24,10 +24,10 @@ local Z = constants.ZONE_NAMES
 -- What we _really_ came here to see...
 -----------------------------------------------------------------------
 function module:InitializeDiscoveries()
-	local function AddDiscovery(identifier, location, coord_x, coord_y, faction)
+	local function AddDiscovery(identifier, location, coordX, coordY, faction)
 		addon.AcquireTypes.Discovery:AddEntity(module, {
-			coord_x = coord_x,
-			coord_y = coord_y,
+			coord_x = coordX,
+			coord_y = coordY,
 			faction = faction,
 			identifier = identifier,
 			location = location,
