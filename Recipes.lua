@@ -31,6 +31,30 @@ local REP = constants.REP_LEVELS
 module.Recipes = {}
 
 --------------------------------------------------------------------------------------------------------------------
+-- General methods.
+--------------------------------------------------------------------------------------------------------------------
+function module:GetOrCreateRecipeAcquireTypeTable(recipe, acquireTypeID, factionID, reputationLevel)
+	local acquireTypeData = recipe.acquire_data[acquireTypeID]
+	if not acquireTypeData then
+		recipe.acquire_data[acquireTypeID] = {}
+		acquireTypeData = recipe.acquire_data[acquireTypeID]
+
+	end
+
+	if factionID and reputationLevel and acquireTypeID == constants.ACQUIRE_TYPE_IDS.REPUTATION then
+		if not acquireTypeData[factionID] then
+			acquireTypeData[factionID] = {
+				[reputationLevel] = {}
+			}
+		elseif not acquireTypeData[factionID][reputationLevel] then
+			acquireTypeData[factionID][reputationLevel] = {}
+		end
+	end
+
+	return acquireTypeData
+end
+
+--------------------------------------------------------------------------------------------------------------------
 -- Initialize!
 --------------------------------------------------------------------------------------------------------------------
 function module:InitializeRecipes()
