@@ -9,6 +9,10 @@ local _G = getfenv(0)
 local FOLDER_NAME, private = ...
 
 local addon = private.addon
+if not addon then
+	return
+end
+
 local constants = addon.constants
 local module = addon:GetModule(private.module_name)
 
