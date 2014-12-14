@@ -25,7 +25,14 @@ local Z = constants.ZONE_NAMES
 -----------------------------------------------------------------------
 function module:InitializeDiscoveries()
 	local function AddDiscovery(identifier, location, coord_x, coord_y, faction)
-		addon.AcquireTypes.Discovery:AddEntity(identifier, L[identifier], location, coord_x, coord_y, faction)
+		addon.AcquireTypes.Discovery:AddEntity(module, {
+			coord_x = coord_x,
+			coord_y = coord_y,
+			faction = faction,
+			identifier = identifier,
+			location = location,
+			name = L[identifier],
+		})
 	end
 
 	AddDiscovery("DISCOVERY_ALCH_ELIXIRFLASK")

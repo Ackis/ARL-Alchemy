@@ -22,8 +22,15 @@ local Z = constants.ZONE_NAMES
 -- What we _really_ came here to see...
 -----------------------------------------------------------------------
 function module:InitializeQuests()
-	local function AddQuest(quest_id, zone_name, coord_x, coord_y, faction)
-		addon.AcquireTypes.Quest:AddEntity(quest_id, nil, zone_name, coord_x, coord_y, faction)
+	local function AddQuest(questID, zoneName, coordX, coordY, faction)
+		addon.AcquireTypes.Quest:AddEntity(module, {
+			coord_x = coordX,
+			coord_y = coordY,
+			faction = faction,
+			identifier = questID,
+			location = zoneName,
+			name = nil, -- Handled by memoizing table in the core.
+		})
 	end
 
 	AddQuest(14151,	Z.DALARAN,			42.5,	32.1,	"Neutral")
