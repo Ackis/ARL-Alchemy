@@ -17,6 +17,21 @@ local module = addon:GetModule(private.module_name)
 local LibStub = _G.LibStub
 local L = LibStub("AceLocale-3.0"):GetLocale(constants.addon_name)
 
+-------------------------------------------------------------------------------
+-- What we're really here for.
+-------------------------------------------------------------------------------
+module.ITEM_FILTER_TYPES = {
+	ALCHEMY_CAULDRON = true,
+	ALCHEMY_ELIXIR = true,
+	ALCHEMY_FLASK = true,
+	ALCHEMY_MISC = true,
+	ALCHEMY_OIL = true,
+	ALCHEMY_POTION = true,
+	ALCHEMY_TRANSMUTE = true,
+	ALCHEMY_TRINKET = true,
+	ALCHEMY_MOUNT = true,
+}
+
 function module:InitializeItemFilters(parent_panel)
 	local MainPanel = addon.Frame
 

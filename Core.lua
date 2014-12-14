@@ -19,18 +19,6 @@ private.addon = addon
 
 local module = addon:NewModule(MODULE_NAME)
 
-module.ITEM_FILTER_TYPES = {
-	ALCHEMY_CAULDRON = true,
-	ALCHEMY_ELIXIR = true,
-	ALCHEMY_FLASK = true,
-	ALCHEMY_MISC = true,
-	ALCHEMY_OIL = true,
-	ALCHEMY_POTION = true,
-	ALCHEMY_TRANSMUTE = true,
-	ALCHEMY_TRINKET = true,
-	ALCHEMY_MOUNT = true,
-}
-
 function module:OnInitialize()
 	local defaults = {
 		profile = {
