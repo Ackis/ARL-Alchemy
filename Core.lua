@@ -32,7 +32,8 @@ end
 private.addon = addon
 
 local module = addon:NewModule(MODULE_NAME)
-module.version = MODULE_VERSION
+module.Version = MODULE_VERSION
+module.Name  = FOLDER_NAME
 
 function module:OnInitialize()
 	local defaults = {
