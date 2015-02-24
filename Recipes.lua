@@ -2715,7 +2715,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113263, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Fire to Air -- 181627
 	recipe = AddRecipe(181627, V.WOD, Q.COMMON)
@@ -2723,7 +2723,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113264, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Fire to Water -- 181628
 	recipe = AddRecipe(181628, V.WOD, Q.COMMON)
@@ -2731,7 +2731,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113262, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Water to Earth -- 181629
 	recipe = AddRecipe(181629, V.WOD, Q.COMMON)
@@ -2739,7 +2739,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113263, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Water to Air -- 181630
 	recipe = AddRecipe(181630, V.WOD, Q.COMMON)
@@ -2747,7 +2747,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113264, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Earth to Air -- 181631
 	recipe = AddRecipe(181631, V.WOD, Q.COMMON)
@@ -2755,7 +2755,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113264, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Earth to Fire -- 181632
 	recipe = AddRecipe(181632, V.WOD, Q.COMMON)
@@ -2763,7 +2763,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113261, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Air to Fire -- 181633
 	recipe = AddRecipe(181633, V.WOD, Q.COMMON)
@@ -2771,7 +2771,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113261, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Water to Fire -- 181634
 	recipe = AddRecipe(181634, V.WOD, Q.COMMON)
@@ -2779,7 +2779,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113261, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Earth to Water -- 181635
 	recipe = AddRecipe(181635, V.WOD, Q.COMMON)
@@ -2787,7 +2787,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113262, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Air to Water -- 181636
 	recipe = AddRecipe(181636, V.WOD, Q.COMMON)
@@ -2795,7 +2795,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113262, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Sorcerous Air to Earth -- 181637
 	recipe = AddRecipe(181637, V.WOD, Q.COMMON)
@@ -2803,14 +2803,14 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(113263, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122599, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Transmute: Savage Blood -- 181643
 	recipe = AddRecipe(181643, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
 	recipe:SetCraftedItem(118472, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Stone of Wind -- 181647
 	recipe = AddRecipe(181647, V.WOD, Q.COMMON)
@@ -2818,7 +2818,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(122601, "BIND_ON_PICKUP")
 	recipe:SetRecipeItem(122605, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Stone of the Earth -- 181648
 	recipe = AddRecipe(181648, V.WOD, Q.COMMON)
@@ -2826,7 +2826,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(122602, "BIND_ON_PICKUP")
 	recipe:SetRecipeItem(122605, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Stone of the Waters -- 181649
 	recipe = AddRecipe(181649, V.WOD, Q.COMMON)
@@ -2834,7 +2834,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(122603, "BIND_ON_PICKUP")
 	recipe:SetRecipeItem(122605, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	-- Stone of Fire -- 181650
 	recipe = AddRecipe(181650, V.WOD, Q.COMMON)
@@ -2842,7 +2842,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(122604, "BIND_ON_PICKUP")
 	recipe:SetRecipeItem(122605, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddVendor(77363, 79813, 91031, 91404)
+	recipe:AddVendor(91031, 91404)
 
 	self.InitializeRecipes = nil
 end
