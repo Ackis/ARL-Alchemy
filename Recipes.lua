@@ -2839,7 +2839,7 @@ function module:InitializeRecipes()
 	-- Stone of Fire -- 181650
 	recipe = AddRecipe(181650, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetCraftedItem(122604, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(122604, "BIND_ON_EQUIP")
 	recipe:SetRecipeItem(122605, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddVendor(91031, 91404)
