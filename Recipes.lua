@@ -2978,5 +2978,21 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
 	recipe:AddVendor(91031, 91404)
 
+	-- Wildswater -- 188674
+	recipe = AddRecipe(188674, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 705, 705, 705)
+	recipe:SetCraftedItem(128158, "BIND_ON_EQUIP")
+	recipe:SetRecipeItem(128160, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_TRINKET")
+	recipe:AddVendor(91031, 91404)
+
+	-- Elemental Distillate -- 188676
+	recipe = AddRecipe(188676, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 705, 705, 705)
+	recipe:SetCraftedItem(128159, "BIND_ON_EQUIP")
+	recipe:SetRecipeItem(128161, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_TRINKET")
+	recipe:AddVendor(91031, 91404)
+
 	self.InitializeRecipes = nil
 end
