@@ -1,4 +1,4 @@
-## Interface: 60100
+## Interface: 60200
 ## Title: Ackis Recipe List: Alchemy
 ## Notes: Alchemy data for Ackis Recipe List.
 ## Author: Ackis, Pompy, Ressy, Torhal
