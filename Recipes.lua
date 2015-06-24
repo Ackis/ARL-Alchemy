@@ -35,13 +35,13 @@ module.Recipes = {}
 function module:InitializeRecipes()
 	local function AddRecipe(spellID, expansionID, quality)
 		return addon:AddRecipe(module, {
-			acquire_data = {},
-			flags = {},
-			genesis = constants.GAME_VERSION_NAMES[expansionID],
-			name = _G.GetSpellInfo(spellID),
-			profession = _G.GetSpellInfo(constants.PROFESSION_SPELL_IDS.ALCHEMY),
-			quality = quality,
-			_spell_id = spellID,
+			_acquireTypeData = {},
+			_bitflags = {},
+			_expansionID = expansionID,
+			_localizedProfessionName = _G.GetSpellInfo(constants.PROFESSION_SPELL_IDS.ALCHEMY),
+			_localizedName = _G.GetSpellInfo(spellID),
+			_qualityID = quality,
+			_spellID = spellID,
 		})
 	end
 
