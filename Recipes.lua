@@ -2272,7 +2272,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(65460, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_CAULDRON")
 	recipe:AddAchievement(5024)
-	recipe:AddVendor(46572, 46602, 51495)
+	recipe:AddVendor(46572, 46602, 51495, 51512)
 
 	-- Vial of the Sands -- 93328
 	recipe = AddRecipe(93328, V.CATA, Q.EPIC)
@@ -2329,14 +2329,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(500, 500, 515, 525, 535)
 	recipe:SetCraftedItem(76094, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(2132, 3009, 3184, 3347, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 33588, 65186, 85905, 86009)
+	recipe:AddTrainer(2132, 3009, 3184, 3347, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 18802, 33588, 65186, 85905, 86009)
 
 	-- Master Healing Potion -- 114752
 	recipe = AddRecipe(114752, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(500, 500, 515, 525, 535)
 	recipe:SetCraftedItem(76097, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(2132, 3009, 3184, 3347, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 33588, 65186, 85905, 86009)
+	recipe:AddTrainer(2132, 3009, 3184, 3347, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 18802, 33588, 65186, 85905, 86009)
 
 	-- Potion of the Mountains -- 114753
 	recipe = AddRecipe(114753, V.MOP, Q.COMMON)
