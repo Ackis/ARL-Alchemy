@@ -815,7 +815,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(31354, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(13510, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddMobDrop(10363)
 	recipe:AddRepVendor(FAC.THE_SHATAR, REP.EXALTED, 21432)
 
 	-- Flask of Distilled Wisdom -- 17636
