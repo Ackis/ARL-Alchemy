@@ -66,6 +66,7 @@ function module:InitializeVendors()
 	AddVendor(79813,	L["Albert de Hyde"],			Z.FROSTWALL,			52.70,	41.92,	"Horde") -- In Garrison
 	AddVendor(87048,	L["Katherine Joplin"],			Z.STORMSHIELD,			36.4,	69.0,	"Alliance") -- In Ashran
 	AddVendor(87542,	L["Joshua Alvarez"],			Z.WARSPEAR,			60.8,	27.4,	"Horde") -- In Ashran
+	AddVendor(92457,	L["Patricia Egan"],			Z.DALARAN_BROKENISLES,		42.1,	32.5,	"Neutral")
 
 	self.InitializeVendors = nil
 end
