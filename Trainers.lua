@@ -73,6 +73,7 @@ function module:InitializeTrainers()
 	AddTrainer(65186, "Poisoncrafter Kil'zit", 	Z.DREAD_WASTES, 		55.6, 32.3, 	"Neutral")
 	AddTrainer(85905, "Jaiden Trask", 		Z.STORMSHIELD, 			37.0, 69.6, 	"Alliance")
 	AddTrainer(86009, "Kristoph Cossey", 		Z.WARSPEAR, 			60.8, 27.6, 	"Horde")
+	AddTrainer(92458, "Deucus Valdera",		Z.DALARAN_BROKENISLES,		41.2, 33.3,	"Neutral")
 
 	self.InitializeTrainers = nil
 end

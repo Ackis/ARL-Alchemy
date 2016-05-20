@@ -35,6 +35,7 @@ function module:InitializeQuests()
 	end
 
 	AddQuest(14151,	Z.DALARAN_NORTHREND,			42.5,	32.1,	"Neutral")
+	AddQuest(39325,	Z.DALARAN_BROKENISLES,			41.2,	33.3,	"Neutral")
 
 	self.InitializeQuests = nil
 end

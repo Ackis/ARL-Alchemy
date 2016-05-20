@@ -43,6 +43,7 @@ function module:InitializeDiscoveries()
 	AddDiscovery("DISCOVERY_ALCH_NORTHREND_RESEARCH")
 	AddDiscovery("DISCOVERY_ALCH_NORTHREND_XMUTE")
 	AddDiscovery("DISCOVERY_ALCH_PANDARIA")
+	AddDiscovery("DISCOVERY_ALCH_LEGION")
 
 	self.InitializeDiscoveries = nil
 end
