@@ -58,7 +58,7 @@ function module:InitializeItemFilters(parent_panel)
 		alchemy_oil		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Oil"]),		text = L["Oil"],		row = 3, col = 1 },
 		alchemy_potion		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Potion"]),		text = L["Potion"],		row = 3, col = 2 },
 		alchemy_transmute	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Transmute"]),	text = L["Transmute"],		row = 4, col = 1 },
-		alchemy_trinket		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Trinket"]),		text = L["Trinket"],		row = 4, col = 2 },
+		alchemy_trinket		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.INVTYPE_TRINKET),	text = _G.INVTYPE_TRINKET,	row = 4, col = 2 },
 		alchemy_mount		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.MOUNTS),		text = _G.MOUNTS,		row = 5, col = 1 },
 	}
 
