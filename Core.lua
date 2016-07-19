@@ -9,14 +9,13 @@ local pairs = _G.pairs
 -------------------------------------------------------------------------------
 -- Constants
 -------------------------------------------------------------------------------
+local MODULE_NAME = "Alchemy"
 local MODULE_VERSION = 2
 
 -------------------------------------------------------------------------------
 -- AddOn namespace.
 -------------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
-local MODULE_NAME = "Alchemy"
-private.module_name = MODULE_NAME
 
 local LibStub = _G.LibStub
 local addon = LibStub("AceAddon-3.0"):GetAddon("Ackis Recipe List")
@@ -26,33 +25,27 @@ if MODULE_VERSION ~= addon.SUPPORTED_MODULE_VERSION then
 		moduleName = MODULE_NAME,
 		moduleVersion = MODULE_VERSION
 	})
+
 	return
 end
 
 private.addon = addon
+private.module_name = MODULE_NAME
 
 local module = addon:NewModule(MODULE_NAME)
-module.Version = MODULE_VERSION
-module.Name  = FOLDER_NAME
 
+-------------------------------------------------------------------------------
+-- Setup.
+-------------------------------------------------------------------------------
 function module:OnInitialize()
-	local defaults = {
-		profile = {
-			filters = {
-				item = {} -- Populated below.
-			}
-		}
-	}
-
-	for filter_name in pairs(self.ITEM_FILTER_TYPES) do
-		defaults.profile.filters.item[filter_name:lower()] = true
-		addon.constants.ITEM_FILTER_TYPES[filter_name] = true
-	end
-
-	self.db = addon.db:RegisterNamespace(MODULE_NAME, defaults)
+	self.ModuleName = MODULE_NAME
+	self.Name = FOLDER_NAME
+	self.Version = MODULE_VERSION
 end
 
 function module:OnEnable()
+	addon.CreateProfessionFromModule(self)
+
 	self:InitializeDiscoveries()
 	self:InitializeMobDrops()
 	self:InitializeQuests()
