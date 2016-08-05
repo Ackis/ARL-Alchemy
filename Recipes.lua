@@ -2985,7 +2985,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127917, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127834, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188297)
 	recipe:AddVendor(92457)
 
 	-- Ancient Healing Potion (3 star) -- 188300
@@ -2994,7 +2993,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127935, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127834, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188300)
 	recipe:AddVendor(92457)
 
 	-- Ancient Mana Potion (1 star) -- 188301
@@ -3011,7 +3009,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127918, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127835, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188301)
 	recipe:AddVendor(92457)
 
 	-- Ancient Mana Potion (3 star) -- 188303
@@ -3020,7 +3017,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127936, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127835, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188302)
 	recipe:AddVendor(92457)
 
 	-- Ancient Rejuvenation Potion (1 star) -- 188304
@@ -3037,7 +3033,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127919, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127836, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188304)
 	recipe:AddVendor(92457)
 
 	-- Ancient Rejuvenation Potion (3 star) -- 188306
@@ -3046,7 +3041,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127937, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127836, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188305)
 	recipe:AddVendor(92457)
 
 	-- Draught of Raw Magic (1 star) -- 188307
@@ -3063,7 +3057,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127920, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127837, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
-	recipe:SetPreviousRankSpellID(188307)
 	recipe:AddVendor(92457)
 
 	-- Draught of Raw Magic (3 star) -- 188309
@@ -3072,7 +3065,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127938, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127837, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
-	recipe:SetPreviousRankSpellID(188308)
 	recipe:AddVendor(92457)
 
 	-- Sylvan Elixir (1 star) -- 188310
@@ -3089,7 +3081,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127921, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127838, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
-	recipe:SetPreviousRankSpellID(188311)
 	recipe:AddVendor(92457)
 
 	-- Sylvan Elixir (3 star) -- 188312
@@ -3098,7 +3089,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127939, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127838, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
-	recipe:SetPreviousRankSpellID(188312)
 	recipe:AddVendor(92457)
 
 	-- Avalanche Elixir (1 star) -- 188313
@@ -3115,7 +3105,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127922, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127839, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
-	recipe:SetPreviousRankSpellID(188313)
 	recipe:AddVendor(92457)
 
 	-- Avalanche Elixir (3 star) -- 188315
@@ -3124,7 +3113,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127940, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127839, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
-	recipe:SetPreviousRankSpellID(188314)
 	recipe:AddVendor(92457)
 
 	-- Skaggldrynk (1 star) -- 188316
@@ -3141,7 +3129,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127923, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127840, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188311)
 	recipe:AddVendor(92457)
 
 	-- Skaggldrynk (3 star) -- 188318
@@ -3150,7 +3137,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127941, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127840, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188317)
 	recipe:AddVendor(92457)
 
 	-- Skystep Potion (1 star) -- 188319
@@ -3167,7 +3153,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127924, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127841, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188319)
 	recipe:AddVendor(92457)
 
 	-- Skaggldrynk (3 star) -- 188321
@@ -3176,7 +3161,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127942, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127841, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188320)
 	recipe:AddVendor(92457)
 
 	-- Infernal Alchemist Stone (1 star) -- 188322
@@ -3193,7 +3177,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127925, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127842, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:SetPreviousRankSpellID(188322)
 	recipe:AddVendor(92457)
 
 	-- Infernal Alchemist Stone (3 star) -- 188324
@@ -3202,7 +3185,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127943, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127842, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:SetPreviousRankSpellID(188324)
 	recipe:AddVendor(92457)
 
 	-- Potion of Deadly Grace (1 star) -- 188325
@@ -3219,7 +3201,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127926, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127843, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188325)
 	recipe:AddVendor(92457)
 
 	-- Potion of Deadly Grace (3 star) -- 188327
@@ -3228,7 +3209,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127944, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127843, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188326)
 	recipe:AddVendor(92457)
 
 	-- Potion of the Old War (1 star) -- 188328
@@ -3245,7 +3225,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127927, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127844, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188328)
 	recipe:AddVendor(92457)
 
 	-- Potion of the Old War (3 star) -- 188330
@@ -3254,7 +3233,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127945, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127844, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188329)
 	recipe:AddVendor(92457)
 
 	-- Unbending Potion (1 star) -- 188331
@@ -3271,7 +3249,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127928, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127845, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188331)
 	recipe:AddVendor(92457)
 
 	-- Unbending Potion (3 star) -- 188333
@@ -3280,7 +3257,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127946, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127845, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188333)
 	recipe:AddVendor(92457)
 
 	-- Leytorrent Potion (1 star) -- 188334
@@ -3297,7 +3273,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127929, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127846, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188334)
 	recipe:AddVendor(92457)
 
 	-- Leytorrent Potion (3 star) -- 188336
@@ -3306,7 +3281,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127947, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127846, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:SetPreviousRankSpellID(188335)
 	recipe:AddVendor(92457)
 
 	-- Flask of the Whispered Pact (1 star) -- 188337
@@ -3323,7 +3297,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127930, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127847, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:SetPreviousRankSpellID(188337)
 	recipe:AddVendor(92457)
 
 	-- Flask of the Whispered Pact (3 star) -- 188339
@@ -3332,7 +3305,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127948, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127847, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:SetPreviousRankSpellID(188338)
 	recipe:AddVendor(92457)
 
 	-- Flask of the Seventh Demon (1 star) -- 188340
@@ -3349,7 +3321,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127931, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127848, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:SetPreviousRankSpellID(188340)
 	recipe:AddVendor(92457)
 
 	-- Flask of the Seventh Demon (3 star) -- 188342
@@ -3358,7 +3329,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127949, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127848, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:SetPreviousRankSpellID(188341)
 	recipe:AddVendor(92457)
 
 	-- Flask of the Countless Armies (1 star) -- 188343
@@ -3375,7 +3345,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127932, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127849, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:SetPreviousRankSpellID(188343)
 	recipe:AddVendor(92457)
 
 	-- Flask of the Countless Armies (3 star) -- 188345
@@ -3384,7 +3353,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127950, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127849, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:SetPreviousRankSpellID(188344)
 	recipe:AddVendor(92457)
 
 	-- Flask of Ten Thousand Scars (1 star) -- 188346
@@ -3401,7 +3369,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127933, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127850, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:SetPreviousRankSpellID(188346)
 	recipe:AddVendor(92457)
 
 	-- Flask of Ten Thousand Scars (3 star) -- 188348
@@ -3410,7 +3377,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127951, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127850, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:SetPreviousRankSpellID(188347)
 	recipe:AddVendor(92457)
 
 	-- Spirit Cauldron (1 star) -- 188349
@@ -3427,7 +3393,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127934, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127851, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_CAULDRON")
-	recipe:SetPreviousRankSpellID(188349)
 	recipe:AddVendor(92457)
 
 	-- Spirit Cauldron (3 star) -- 188351
@@ -3436,7 +3401,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127952, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127851, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_CAULDRON")
-	recipe:SetPreviousRankSpellID(188350)
 	recipe:AddVendor(92457)
 
 	-- Wild Transmutation (1 star) -- 188800
@@ -3451,7 +3415,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(128210, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:SetPreviousRankSpellID(188800)
 	recipe:AddVendor(92457)
 
 	-- Wild Transmutation (3 star) -- 188802
@@ -3459,7 +3422,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(128211, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:SetPreviousRankSpellID(188801)
 	recipe:AddVendor(92457)
 
 	-- Transmute: Ore to Cloth -- 213248
