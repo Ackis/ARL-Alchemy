@@ -38,7 +38,6 @@ function module:InitializeRecipes()
 			_acquireTypeData = {},
 			_bitflags = {},
 			_expansionID = expansionID,
-			_localizedProfessionName = _G.GetSpellInfo(constants.PROFESSION_SPELL_IDS.ALCHEMY),
 			_localizedName = _G.GetSpellInfo(spellID),
 			_qualityID = quality,
 			_spellID = spellID,
