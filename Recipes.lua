@@ -3272,7 +3272,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127929, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127846, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddVendor(92457)
+	recipe:AddMobDrop(96028)
 
 	-- Leytorrent Potion (3 star) -- 188336
 	recipe = AddRecipe(188336, V.LEGION, Q.COMMON)
