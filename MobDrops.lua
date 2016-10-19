@@ -64,6 +64,7 @@ function module:InitializeMobDrops()
 	AddMob(32290,	L["Cult Alchemist"],			Z.ICECROWN,						49.5, 33.1)
 	AddMob(32297,	L["Cult Researcher"],			Z.ICECROWN,						50.7, 30.9)
 	AddMob(32349,	L["Cultist Shard Watcher"],		Z.ICECROWN,						48.1, 67.9)
+	AddMob(96759,	BN.HELYA,				Z.HELMOUTH_CLIFFS,				0,0)
 
 	self.InitializeMobDrops = nil
 end
