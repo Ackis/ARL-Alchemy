@@ -3200,7 +3200,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127926, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127843, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
+	recipe:AddMobDrop(104218)
 
 	-- Potion of Deadly Grace (3 star) -- 188327
 	recipe = AddRecipe(188327, V.LEGION, Q.COMMON)
