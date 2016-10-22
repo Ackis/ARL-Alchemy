@@ -3224,7 +3224,8 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127927, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127844, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
+	recipe:AddFilters(F.INSTANCE)
+	recipe:AddMobDrop(98208)
 
 	-- Potion of the Old War (3 star) -- 188330
 	recipe = AddRecipe(188330, V.LEGION, Q.COMMON)
