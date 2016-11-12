@@ -3508,5 +3508,29 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION")
 
+	-- Potion of Prolonged Power -- 229217
+	recipe = AddRecipe(229217, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetRecipeItem(142119, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142117, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
+
+	-- Potion of Prolonged Power -- 229218
+	recipe = AddRecipe(229218, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetRecipeItem(142120, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142117, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddRepVendor(FAC.THE_NIGHTFALLEN, REP.REVERED, 115736)
+
+	-- Potion of Prolonged Power -- 229220
+	recipe = AddRecipe(229220, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(142121, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142117, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddMobDrop(110321)
+
 	self.InitializeRecipes = nil
 end
