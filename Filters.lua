@@ -1,8 +1,6 @@
 -------------------------------------------------------------------------------
 -- Localized Lua globals.
 -------------------------------------------------------------------------------
-local _G = getfenv(0)
-
 local pairs = _G.pairs
 
 -------------------------------------------------------------------------------
@@ -89,5 +87,6 @@ function module:InitializeItemFilters(parent_panel)
 			svroot = self.db.profile.filters.item
 		}
 	end
+
 	self.InitializeItemFilters = nil
 end
