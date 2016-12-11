@@ -31,8 +31,8 @@ function module:InitializeMobDrops()
 			faction = nil,
 			identifier = npcID,
 			item_list = {},
-			location = zoneName,
 			name = npcName,
+			locationName = zoneName,
 		})
 	end
 
