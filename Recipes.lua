@@ -2962,10 +2962,10 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddVendor(91031, 91404)
 
-	-------------------------------------------------------------------------------
+	-- ----------------------------------------------------------------------------
 	-- Legion.
-	-------------------------------------------------------------------------------
-	-- Ancient Healing Potion (1 star) -- 188297
+	-- ----------------------------------------------------------------------------
+	-- Ancient Healing Potion -- 188297
 	recipe = AddRecipe(188297, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127898, "BIND_ON_PICKUP")
@@ -2973,7 +2973,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Ancient Healing Potion (2 star) -- 188299
+	-- Ancient Healing Potion -- 188299
 	recipe = AddRecipe(188299, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127917, "BIND_ON_PICKUP")
@@ -2981,7 +2981,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Ancient Healing Potion (3 star) -- 188300
+	-- Ancient Healing Potion -- 188300
 	recipe = AddRecipe(188300, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127935, "BIND_ON_PICKUP")
@@ -2989,7 +2989,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Ancient Mana Potion (1 star) -- 188301
+	-- Ancient Mana Potion -- 188301
 	recipe = AddRecipe(188301, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127899, "BIND_ON_PICKUP")
@@ -2997,7 +2997,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Ancient Mana Potion (2 star) -- 188302
+	-- Ancient Mana Potion -- 188302
 	recipe = AddRecipe(188302, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127918, "BIND_ON_PICKUP")
@@ -3005,7 +3005,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Ancient Mana Potion (3 star) -- 188303
+	-- Ancient Mana Potion -- 188303
 	recipe = AddRecipe(188303, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127936, "BIND_ON_PICKUP")
@@ -3013,7 +3013,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Ancient Rejuvenation Potion (1 star) -- 188304
+	-- Ancient Rejuvenation Potion -- 188304
 	recipe = AddRecipe(188304, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127900, "BIND_ON_PICKUP")
@@ -3021,7 +3021,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Ancient Rejuvenation Potion (2 star) -- 188305
+	-- Ancient Rejuvenation Potion -- 188305
 	recipe = AddRecipe(188305, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127919, "BIND_ON_PICKUP")
@@ -3029,7 +3029,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Ancient Rejuvenation Potion (3 star) -- 188306
+	-- Ancient Rejuvenation Potion -- 188306
 	recipe = AddRecipe(188306, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127937, "BIND_ON_PICKUP")
@@ -3037,7 +3037,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Draught of Raw Magic (1 star) -- 188307
+	-- Draught of Raw Magic -- 188307
 	recipe = AddRecipe(188307, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127901, "BIND_ON_PICKUP")
@@ -3045,7 +3045,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddVendor(92457)
 
-	-- Draught of Raw Magic (2 star) -- 188308
+	-- Draught of Raw Magic -- 188308
 	recipe = AddRecipe(188308, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127920, "BIND_ON_PICKUP")
@@ -3054,7 +3054,7 @@ function module:InitializeRecipes()
 	recipe:AddQuest(41657, 41662)
 	recipe:AddCustom("WORLD_QUEST")
 
-	-- Draught of Raw Magic (3 star) -- 188309
+	-- Draught of Raw Magic -- 188309
 	recipe = AddRecipe(188309, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127938, "BIND_ON_PICKUP")
@@ -3062,7 +3062,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Sylvan Elixir (1 star) -- 188310
+	-- Sylvan Elixir -- 188310
 	recipe = AddRecipe(188310, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127902, "BIND_ON_PICKUP")
@@ -3070,7 +3070,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddVendor(92457)
 
-	-- Sylvan Elixir (2 star) -- 188311
+	-- Sylvan Elixir -- 188311
 	recipe = AddRecipe(188311, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127921, "BIND_ON_PICKUP")
@@ -3079,7 +3079,7 @@ function module:InitializeRecipes()
 	recipe:AddQuest(41658)
 	recipe:AddCustom("WORLD_QUEST")
 
-	-- Sylvan Elixir (3 star) -- 188312
+	-- Sylvan Elixir -- 188312
 	recipe = AddRecipe(188312, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127939, "BIND_ON_PICKUP")
@@ -3087,7 +3087,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Avalanche Elixir (1 star) -- 188313
+	-- Avalanche Elixir -- 188313
 	recipe = AddRecipe(188313, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127903, "BIND_ON_PICKUP")
@@ -3095,7 +3095,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddVendor(92457)
 
-	-- Avalanche Elixir (2 star) -- 188314
+	-- Avalanche Elixir -- 188314
 	recipe = AddRecipe(188314, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127922, "BIND_ON_PICKUP")
@@ -3104,7 +3104,7 @@ function module:InitializeRecipes()
 	recipe:AddQuest(41659)
 	recipe:AddCustom("WORLD_QUEST")
 
-	-- Avalanche Elixir (3 star) -- 188315
+	-- Avalanche Elixir -- 188315
 	recipe = AddRecipe(188315, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127940, "BIND_ON_PICKUP")
@@ -3112,7 +3112,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Skaggldrynk (1 star) -- 188316
+	-- Skaggldrynk -- 188316
 	recipe = AddRecipe(188316, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127904, "BIND_ON_PICKUP")
@@ -3120,7 +3120,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Skaggldrynk (2 star) -- 188317
+	-- Skaggldrynk -- 188317
 	recipe = AddRecipe(188317, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127923, "BIND_ON_PICKUP")
@@ -3128,7 +3128,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Skaggldrynk (3 star) -- 188318
+	-- Skaggldrynk -- 188318
 	recipe = AddRecipe(188318, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127941, "BIND_ON_PICKUP")
@@ -3136,7 +3136,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Skystep Potion (1 star) -- 188319
+	-- Skystep Potion -- 188319
 	recipe = AddRecipe(188319, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127905, "BIND_ON_PICKUP")
@@ -3144,7 +3144,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Skaggldrynk (2 star) -- 188320
+	-- Skystep Potion -- 188320
 	recipe = AddRecipe(188320, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127924, "BIND_ON_PICKUP")
@@ -3153,7 +3153,7 @@ function module:InitializeRecipes()
 	recipe:AddQuest(41661)
 	recipe:AddCustom("WORLD_QUEST")
 
-	-- Skaggldrynk (3 star) -- 188321
+	-- Skystep Potion -- 188321
 	recipe = AddRecipe(188321, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127942, "BIND_ON_PICKUP")
@@ -3161,7 +3161,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Infernal Alchemist Stone (1 star) -- 188322
+	-- Infernal Alchemist Stone -- 188322
 	recipe = AddRecipe(188322, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127906, "BIND_ON_PICKUP")
@@ -3169,7 +3169,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddVendor(92457)
 
-	-- Infernal Alchemist Stone (2 star) -- 188323
+	-- Infernal Alchemist Stone -- 188323
 	recipe = AddRecipe(188323, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127925, "BIND_ON_PICKUP")
@@ -3177,7 +3177,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddWorldDrop(Z.BROKEN_ISLES)
 
-	-- Infernal Alchemist Stone (3 star) -- 188324
+	-- Infernal Alchemist Stone -- 188324
 	recipe = AddRecipe(188324, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127943, "BIND_ON_PICKUP")
@@ -3185,7 +3185,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Potion of Deadly Grace (1 star) -- 188325
+	-- Potion of Deadly Grace -- 188325
 	recipe = AddRecipe(188325, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127907, "BIND_ON_PICKUP")
@@ -3193,7 +3193,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Potion of Deadly Grace (2 star) -- 188326
+	-- Potion of Deadly Grace -- 188326
 	recipe = AddRecipe(188326, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127926, "BIND_ON_PICKUP")
@@ -3203,7 +3203,7 @@ function module:InitializeRecipes()
 	recipe:AddMobDrop(104218)
 	recipe:AddCustom("MYTHIC")
 
-	-- Potion of Deadly Grace (3 star) -- 188327
+	-- Potion of Deadly Grace -- 188327
 	recipe = AddRecipe(188327, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127944, "BIND_ON_PICKUP")
@@ -3211,7 +3211,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Potion of the Old War (1 star) -- 188328
+	-- Potion of the Old War -- 188328
 	recipe = AddRecipe(188328, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127908, "BIND_ON_PICKUP")
@@ -3219,7 +3219,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Potion of the Old War (2 star) -- 188329
+	-- Potion of the Old War -- 188329
 	recipe = AddRecipe(188329, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127927, "BIND_ON_PICKUP")
@@ -3229,7 +3229,7 @@ function module:InitializeRecipes()
 	recipe:AddMobDrop(98208)
 	recipe:AddCustom("MYTHIC")
 
-	-- Potion of the Old War (3 star) -- 188330
+	-- Potion of the Old War -- 188330
 	recipe = AddRecipe(188330, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127945, "BIND_ON_PICKUP")
@@ -3237,7 +3237,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Unbending Potion (1 star) -- 188331
+	-- Unbending Potion -- 188331
 	recipe = AddRecipe(188331, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127909, "BIND_ON_PICKUP")
@@ -3245,7 +3245,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Unbending Potion (2 star) -- 188332
+	-- Unbending Potion -- 188332
 	recipe = AddRecipe(188332, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127928, "BIND_ON_PICKUP")
@@ -3254,7 +3254,7 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.INSTANCE)
 	recipe:AddMobDrop(91007)
 
-	-- Unbending Potion (3 star) -- 188333
+	-- Unbending Potion -- 188333
 	recipe = AddRecipe(188333, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127946, "BIND_ON_PICKUP")
@@ -3262,7 +3262,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Leytorrent Potion (1 star) -- 188334
+	-- Leytorrent Potion -- 188334
 	recipe = AddRecipe(188334, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127910, "BIND_ON_PICKUP")
@@ -3270,7 +3270,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(92457)
 
-	-- Leytorrent Potion (2 star) -- 188335
+	-- Leytorrent Potion -- 188335
 	recipe = AddRecipe(188335, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127929, "BIND_ON_PICKUP")
@@ -3279,7 +3279,7 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.INSTANCE)
 	recipe:AddMobDrop(96028)
 
-	-- Leytorrent Potion (3 star) -- 188336
+	-- Leytorrent Potion -- 188336
 	recipe = AddRecipe(188336, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127947, "BIND_ON_PICKUP")
@@ -3287,7 +3287,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Flask of the Whispered Pact (1 star) -- 188337
+	-- Flask of the Whispered Pact -- 188337
 	recipe = AddRecipe(188337, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127911, "BIND_ON_PICKUP")
@@ -3295,7 +3295,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddVendor(92457)
 
-	-- Flask of the Whispered Pact (2 star) -- 188338
+	-- Flask of the Whispered Pact -- 188338
 	recipe = AddRecipe(188338, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127930, "BIND_ON_PICKUP")
@@ -3304,7 +3304,7 @@ function module:InitializeRecipes()
 	recipe:AddMobDrop(94923)
 	recipe:AddCustom("HEROIC")
 
-	-- Flask of the Whispered Pact (3 star) -- 188339
+	-- Flask of the Whispered Pact -- 188339
 	recipe = AddRecipe(188339, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127948, "BIND_ON_PICKUP")
@@ -3312,7 +3312,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Flask of the Seventh Demon (1 star) -- 188340
+	-- Flask of the Seventh Demon -- 188340
 	recipe = AddRecipe(188340, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127912, "BIND_ON_PICKUP")
@@ -3320,7 +3320,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddVendor(92457)
 
-	-- Flask of the Seventh Demon (2 star) -- 188341
+	-- Flask of the Seventh Demon -- 188341
 	recipe = AddRecipe(188341, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127931, "BIND_ON_PICKUP")
@@ -3329,7 +3329,7 @@ function module:InitializeRecipes()
 	recipe:AddMobDrop(80927)
 	recipe:AddCustom("HEROIC")
 
-	-- Flask of the Seventh Demon (3 star) -- 188342
+	-- Flask of the Seventh Demon -- 188342
 	recipe = AddRecipe(188342, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127949, "BIND_ON_PICKUP")
@@ -3337,7 +3337,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Flask of the Countless Armies (1 star) -- 188343
+	-- Flask of the Countless Armies -- 188343
 	recipe = AddRecipe(188343, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127913, "BIND_ON_PICKUP")
@@ -3345,7 +3345,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddVendor(92457)
 
-	-- Flask of the Countless Armies (2 star) -- 188344
+	-- Flask of the Countless Armies -- 188344
 	recipe = AddRecipe(188344, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127932, "BIND_ON_PICKUP")
@@ -3354,7 +3354,7 @@ function module:InitializeRecipes()
 	recipe:AddMobDrop(96759)
 	recipe:AddCustom("HEROIC")
 
-	-- Flask of the Countless Armies (3 star) -- 188345
+	-- Flask of the Countless Armies -- 188345
 	recipe = AddRecipe(188345, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127950, "BIND_ON_PICKUP")
@@ -3362,7 +3362,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Flask of Ten Thousand Scars (1 star) -- 188346
+	-- Flask of Ten Thousand Scars -- 188346
 	recipe = AddRecipe(188346, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127914, "BIND_ON_PICKUP")
@@ -3370,7 +3370,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddVendor(92457)
 
-	-- Flask of Ten Thousand Scars (2 star) -- 188347
+	-- Flask of Ten Thousand Scars -- 188347
 	recipe = AddRecipe(188347, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127933, "BIND_ON_PICKUP")
@@ -3379,7 +3379,7 @@ function module:InitializeRecipes()
 	recipe:AddMobDrop(110962)
 	recipe:AddCustom("HEROIC")
 
-	-- Flask of Ten Thousand Scars (3 star) -- 188348
+	-- Flask of Ten Thousand Scars -- 188348
 	recipe = AddRecipe(188348, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127951, "BIND_ON_PICKUP")
@@ -3387,7 +3387,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Spirit Cauldron (1 star) -- 188349
+	-- Spirit Cauldron -- 188349
 	recipe = AddRecipe(188349, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(127915, "BIND_ON_PICKUP")
@@ -3395,7 +3395,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_CAULDRON")
 	recipe:AddVendor(92457)
 
-	-- Spirit Cauldron (2 star) -- 188350
+	-- Spirit Cauldron -- 188350
 	recipe = AddRecipe(188350, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(127934, "BIND_ON_PICKUP")
@@ -3404,7 +3404,7 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.RAID)
 	recipe:AddMobDrop(104636)
 
-	-- Spirit Cauldron (3 star) -- 188351
+	-- Spirit Cauldron -- 188351
 	recipe = AddRecipe(188351, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(127952, "BIND_ON_PICKUP")
@@ -3412,21 +3412,21 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_CAULDRON")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Wild Transmutation (1 star) -- 188800
+	-- Wild Transmutation -- 188800
 	recipe = AddRecipe(188800, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 710, 720)
 	recipe:SetRecipeItem(128209, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddVendor(92457)
 
-	-- Wild Transmutation (2 star) -- 188801
+	-- Wild Transmutation -- 188801
 	recipe = AddRecipe(188801, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 730, 740)
 	recipe:SetRecipeItem(128210, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
 
-	-- Wild Transmutation (3 star) -- 188802
+	-- Wild Transmutation -- 188802
 	recipe = AddRecipe(188802, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 740, 750, 760)
 	recipe:SetRecipeItem(128211, "BIND_ON_PICKUP")
@@ -3447,7 +3447,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION")
 
-	-- Transmute: Cloth to Skins -- 213250
+	-- Transmute: Skins to Ore -- 213250
 	recipe = AddRecipe(213250, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 730, 760)
 	recipe:SetCraftedItem(137592, "BIND_ON_PICKUP")
@@ -3526,6 +3526,110 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(142117, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddMobDrop(110321)
+
+	-- Lightblood Elixir -- 247619 -Rank1
+	recipe = AddRecipe(247619, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151657, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142117, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddQuest(48002)
+
+	-- Lightblood Elixir -- 247620 -Rank2
+	recipe = AddRecipe(247620, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151658, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142117, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddQuest(48318)
+
+	-- Lightblood Elixir -- 247622 -Rank3
+	recipe = AddRecipe(247622, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151659, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142117, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
+
+	-- Tears of the Naaru -- 247688 -Rank1
+	recipe = AddRecipe(247688, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151703, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151930, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddQuest(48013)
+
+	-- Tears of the Naaru -- 247690 -Rank2
+	recipe = AddRecipe(247690, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151704, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151930, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddQuest(48323)
+
+	-- Tears of the Naaru -- 247691 -Rank3
+	recipe = AddRecipe(247691, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151705, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151930, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
+
+	-- Astral Alchemist Stone -- 247694 -Rank1
+	recipe = AddRecipe(247694, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151706, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151607, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_TRINKET")
+	recipe:AddQuest(48016)
+
+	-- Astral Alchemist Stone -- 247695 -Rank2
+	recipe = AddRecipe(247695, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151707, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151607, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_TRINKET")
+	recipe:AddRepVendor(FAC.ARGUSSIAN_REACH, REP.REVERED, 127151)
+
+	-- Astral Alchemist Stone -- 247696 -Rank3
+	recipe = AddRecipe(247696, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151708, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151607, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_TRINKET")
+	recipe:AddRepVendor(FAC.ARGUSSIAN_REACH, REP.EXALTED, 127151)
+
+	-- Transmute: Primal Sargerite -- 247701
+	recipe = AddRecipe(247701, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 750, 780)
+	recipe:SetRecipeItem(151710, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151568, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
+	recipe:AddVendor(125346)
+
+	-- Astral Healing Potion -- 251646
+	recipe = AddRecipe(251646, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetRecipeItem(152616, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(152615, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddVendor(125346)
+
+	-- Astral Healing Potion -- 251651
+	recipe = AddRecipe(251651, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetRecipeItem(152617, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(152615, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddDiscovery("DISCOVERY_ALCH_LEGION_PREV")
+
+	-- Astral Healing Potion -- 251658
+	recipe = AddRecipe(251658, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(152618, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(152615, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddRepVendor(FAC.ARGUSSIAN_REACH, REP.EXALTED, 127151)
 
 	self.InitializeRecipes = nil
 end
