@@ -35,8 +35,8 @@ function module:InitializeQuests()
 	AddQuest(41659,	Z.THUNDER_TOTEM,			38.4,	46.0,	"Neutral")
 	AddQuest(41661,	Z.SURAMAR,				36.4,	46.8,	"Neutral")
 	AddQuest(41662,	Z.DALARAN_BROKENISLES,			33.4,	47.8,	"Neutral")
-	AddQuest(48002,	Z.KROKUUN,				0.0,	0.0,	"Neutral")  -- Needs updating
-	AddQuest(48013,	Z.KROKUUN,				0.0,	0.0,	"Neutral")  -- Needs updating
+	AddQuest(48002,	Z.KROKUUN,				56.1,	66.8,	"Neutral")
+	AddQuest(48013,	Z.KROKUUN,				56.1,	66.8,	"Neutral")
 	AddQuest(48016,	Z.KROKUUN,				0.0,	0.0,	"Neutral")  -- Needs updating
 	AddQuest(48318,	Z.KROKUUN,				0.0,	0.0,	"Neutral")  -- Needs updating
 	AddQuest(48323,	Z.KROKUUN,				0.0,	0.0,	"Neutral")  -- Needs updating
