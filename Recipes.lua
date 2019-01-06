@@ -3631,5 +3631,419 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddRepVendor(FAC.ARGUSSIAN_REACH, REP.EXALTED, 127151)
 
+	-- ----------------------------------------------------------------------------
+	-- Battle for Azeroth.
+	-- ----------------------------------------------------------------------------
+	-- Anti-Venom -- 7934
+	recipe = AddRecipe(7934, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(80, 80, 90, 95, 100)
+	recipe:SetCraftedItem(6452, "BIND_ON_EQUIP")
+	recipe:AddTrainer(5499)
+
+	-- Strong Anti-Venom -- 7935
+	recipe = AddRecipe(7935, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Powerful Anti-Venom -- 23787
+	recipe = AddRecipe(23787, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Healing Tonic -- 172540
+	recipe = AddRecipe(172540, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Blackwater Anti-Venom -- 172541
+	recipe = AddRecipe(172541, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Fire Ammonite Oil -- 172542
+	recipe = AddRecipe(172542, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Silvery Salve -- 221690
+	recipe = AddRecipe(221690, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Herbs to Ore -- 251305
+	recipe = AddRecipe(251305, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Herbs to Cloth -- 251306
+	recipe = AddRecipe(251306, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Ore to Herbs -- 251309
+	recipe = AddRecipe(251309, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Ore to Cloth -- 251310
+	recipe = AddRecipe(251310, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Ore to Gems -- 251311
+	recipe = AddRecipe(251311, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Cloth to Skins -- 251314
+	recipe = AddRecipe(251314, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Meat to Pet -- 251808
+	recipe = AddRecipe(251808, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Fish to Gems -- 251822
+	recipe = AddRecipe(251822, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Expulsom -- 251832
+	recipe = AddRecipe(251832, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Steelskin Potion -- 252334
+	recipe = AddRecipe(252334, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Steelskin Potion -- 252335
+	recipe = AddRecipe(252335, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Steelskin Potion -- 252336
+	recipe = AddRecipe(252336, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Replenishment -- 252337
+	recipe = AddRecipe(252337, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Replenishment -- 252339
+	recipe = AddRecipe(252339, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Replenishment -- 252340
+	recipe = AddRecipe(252340, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Bursting Blood -- 252341
+	recipe = AddRecipe(252341, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Bursting Blood -- 252342
+	recipe = AddRecipe(252342, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Bursting Blood -- 252343
+	recipe = AddRecipe(252343, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Rising Death -- 252344
+	recipe = AddRecipe(252344, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Rising Death -- 252345
+	recipe = AddRecipe(252345, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Rising Death -- 252346
+	recipe = AddRecipe(252346, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of the Currents -- 252348
+	recipe = AddRecipe(252348, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of the Currents -- 252349
+	recipe = AddRecipe(252349, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of the Currents -- 252350
+	recipe = AddRecipe(252350, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of Endless Fathoms -- 252351
+	recipe = AddRecipe(252351, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of Endless Fathoms -- 252352
+	recipe = AddRecipe(252352, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of Endless Fathoms -- 252353
+	recipe = AddRecipe(252353, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of the Vast Horizon -- 252354
+	recipe = AddRecipe(252354, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of the Vast Horizon -- 252355
+	recipe = AddRecipe(252355, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of the Vast Horizon -- 252356
+	recipe = AddRecipe(252356, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of the Undertow -- 252357
+	recipe = AddRecipe(252357, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of the Undertow -- 252358
+	recipe = AddRecipe(252358, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Flask of the Undertow -- 252359
+	recipe = AddRecipe(252359, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Endless Tincture of Renewed Combat -- 252361
+	recipe = AddRecipe(252361, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Endless Tincture of Renewed Combat -- 252362
+	recipe = AddRecipe(252362, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Endless Tincture of Renewed Combat -- 252363
+	recipe = AddRecipe(252363, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Siren's Alchemist Stone -- 252368
+	recipe = AddRecipe(252368, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Siren's Alchemist Stone -- 252369
+	recipe = AddRecipe(252369, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Siren's Alchemist Stone -- 252370
+	recipe = AddRecipe(252370, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Endless Tincture of Fractional Power -- 252376
+	recipe = AddRecipe(252376, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Endless Tincture of Fractional Power -- 252377
+	recipe = AddRecipe(252377, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Endless Tincture of Fractional Power -- 252378
+	recipe = AddRecipe(252378, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Surging Alchemist Stone -- 252379
+	recipe = AddRecipe(252379, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Surging Alchemist Stone -- 252380
+	recipe = AddRecipe(252380, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Surging Alchemist Stone -- 252381
+	recipe = AddRecipe(252381, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Coastal Healing Potion -- 252382
+	recipe = AddRecipe(252382, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Coastal Healing Potion -- 252383
+	recipe = AddRecipe(252383, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Coastal Healing Potion -- 252384
+	recipe = AddRecipe(252384, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Coastal Mana Potion -- 252385
+	recipe = AddRecipe(252385, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Coastal Mana Potion -- 252386
+	recipe = AddRecipe(252386, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Coastal Mana Potion -- 252387
+	recipe = AddRecipe(252387, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Coastal Rejuvenation Potion -- 252388
+	recipe = AddRecipe(252388, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Coastal Rejuvenation Potion -- 252389
+	recipe = AddRecipe(252389, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Coastal Rejuvenation Potion -- 252390
+	recipe = AddRecipe(252390, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Demitri's Draught of Deception -- 252391
+	recipe = AddRecipe(252391, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Demitri's Draught of Deception -- 252392
+	recipe = AddRecipe(252392, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Demitri's Draught of Deception -- 252393
+	recipe = AddRecipe(252393, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Lightfoot Potion -- 252394
+	recipe = AddRecipe(252394, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Lightfoot Potion -- 252395
+	recipe = AddRecipe(252395, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Lightfoot Potion -- 252396
+	recipe = AddRecipe(252396, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sea Mist Potion -- 252397
+	recipe = AddRecipe(252397, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sea Mist Potion -- 252398
+	recipe = AddRecipe(252398, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sea Mist Potion -- 252399
+	recipe = AddRecipe(252399, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Concealment -- 252400
+	recipe = AddRecipe(252400, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Concealment -- 252401
+	recipe = AddRecipe(252401, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Concealment -- 252402
+	recipe = AddRecipe(252402, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mystical Cauldron -- 276975
+	recipe = AddRecipe(276975, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mystical Cauldron -- 276976
+	recipe = AddRecipe(276976, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mystical Cauldron -- 276977
+	recipe = AddRecipe(276977, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of Herb Tracking -- 278420
+	recipe = AddRecipe(278420, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Agility -- 279159
+	recipe = AddRecipe(279159, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Agility -- 279160
+	recipe = AddRecipe(279160, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Agility -- 279161
+	recipe = AddRecipe(279161, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Intellect -- 279162
+	recipe = AddRecipe(279162, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Intellect -- 279163
+	recipe = AddRecipe(279163, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Intellect -- 279164
+	recipe = AddRecipe(279164, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Stamina -- 279165
+	recipe = AddRecipe(279165, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Stamina -- 279166
+	recipe = AddRecipe(279166, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Stamina -- 279167
+	recipe = AddRecipe(279167, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Strength -- 279168
+	recipe = AddRecipe(279168, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Strength -- 279169
+	recipe = AddRecipe(279169, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Battle Potion of Strength -- 279170
+	recipe = AddRecipe(279170, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Transmute: Herbs to Anchors -- 286547
+	recipe = AddRecipe(286547, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sanguinated Dilution -- 286630
+	recipe = AddRecipe(286630, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Tidal Alchemist Stone -- 286921
+	recipe = AddRecipe(286921, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Spirited Alchemist Stone -- 286922
+	recipe = AddRecipe(286922, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Eternal Alchemist Stone -- 286923
+	recipe = AddRecipe(286923, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Aqueous Dilution -- 287234
+	recipe = AddRecipe(287234, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vial of Obfuscation -- 287288
+	recipe = AddRecipe(287288, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of the Unveiling Eye -- 287447
+	recipe = AddRecipe(287447, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of the Unveiling Eye -- 287448
+	recipe = AddRecipe(287448, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Potion of the Unveiling Eye -- 287449
+	recipe = AddRecipe(287449, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Sanguinated Alchemist Stone -- 291084
+	recipe = AddRecipe(291084, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Imbued Alchemist Stone -- 291085
+	recipe = AddRecipe(291085, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Emblazoned Alchemist Stone -- 291086
+	recipe = AddRecipe(291086, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+
 	self.InitializeRecipes = nil
 end

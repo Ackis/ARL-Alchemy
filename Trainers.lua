@@ -70,6 +70,7 @@ function module:InitializeTrainers()
 	AddTrainer(86009, "Kristoph Cossey", 		Z.WARSPEAR, 			60.8, 27.6, 	"Horde")
 	AddTrainer(92456, "Linzy Blackbolt",		Z.DALARAN_BROKENISLES,		42.0, 31.7,	"Neutral")
 	AddTrainer(92458, "Deucus Valdera",		Z.DALARAN_BROKENISLES,		41.2, 33.3,	"Neutral")
+	AddTrainer(132228, "Elric Whalgrene",		Z.BORALUS,			74.6, 6.6,	"Alliance")
 
 	self.InitializeTrainers = nil
 end
