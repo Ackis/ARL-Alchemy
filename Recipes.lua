@@ -1978,84 +1978,84 @@ function module:InitializeRecipes()
 	-------------------------------------------------------------------------------
 	-- Transmute: Living Elements -- 78866
 	recipe = AddRecipe(78866, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(485, 485, 510, 515, 520)
+	recipe:SetSkillLevels(35, 35, 45, 50, 55)
 	recipe:SetCraftedItem(54464, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Transmute: Shadowspirit Diamond -- 80237
 	recipe = AddRecipe(80237, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 525, 530, 535)
+	recipe:SetSkillLevels(75, 75, 85, 90, 95)
 	recipe:SetCraftedItem(52303, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Transmute: Truegold -- 80243
 	recipe = AddRecipe(80243, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 525, 530, 535)
+	recipe:SetSkillLevels(75, 75, 85, 90, 95)
 	recipe:SetCraftedItem(58480, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Transmute: Pyrium Bar -- 80244
 	recipe = AddRecipe(80244, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(520, 520, 525, 530, 535)
+	recipe:SetSkillLevels(70, 70, 80, 85, 90)
 	recipe:SetCraftedItem(51950, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Transmute: Inferno Ruby -- 80245
 	recipe = AddRecipe(80245, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 525, 530, 535)
+	recipe:SetSkillLevels(75, 75, 85, 90, 95)
 	recipe:SetCraftedItem(52190, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Transmute: Ocean Sapphire -- 80246
 	recipe = AddRecipe(80246, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(515, 515, 520, 525, 530)
+	recipe:SetSkillLevels(65, 65, 75, 80, 85)
 	recipe:SetCraftedItem(52191, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Transmute: Amberjewel -- 80247
 	recipe = AddRecipe(80247, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(520, 520, 525, 530, 535)
+	recipe:SetSkillLevels(70, 70, 80, 85, 90)
 	recipe:SetCraftedItem(52195, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Transmute: Demonseye -- 80248
 	recipe = AddRecipe(80248, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(515, 515, 520, 525, 530)
+	recipe:SetSkillLevels(65, 65, 75, 80, 85)
 	recipe:SetCraftedItem(52194, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Transmute: Ember Topaz -- 80250
 	recipe = AddRecipe(80250, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(510, 510, 515, 520, 525)
+	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(52193, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Transmute: Dream Emerald -- 80251
 	recipe = AddRecipe(80251, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(505, 505, 510, 515, 520)
+	recipe:SetSkillLevels(55, 55, 65, 70, 75)
 	recipe:SetCraftedItem(52192, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Potion of Illusion -- 80269
 	recipe = AddRecipe(80269, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(460, 460, 470, 475, 480)
+	recipe:SetSkillLevels(10, 10, 20, 25, 30)
 	recipe:SetCraftedItem(58489, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Ghost Elixir -- 80477
 	recipe = AddRecipe(80477, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(450, 450, 455, 460, 465)
+	recipe:SetSkillLevels(1, 1, 11, 16, 21)
 	recipe:SetCraftedItem(58084, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -2063,7 +2063,7 @@ function module:InitializeRecipes()
 
 	-- Earthen Potion -- 80478
 	recipe = AddRecipe(80478, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(450, 450, 455, 460, 465)
+	recipe:SetSkillLevels(1, 1, 11, 16, 21)
 	recipe:SetCraftedItem(58090, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddFilters(F.TANK)
@@ -2071,14 +2071,14 @@ function module:InitializeRecipes()
 
 	-- Deathblood Venom -- 80479
 	recipe = AddRecipe(80479, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(455, 455, 460, 465, 470)
+	recipe:SetSkillLevels(5, 5, 15, 20, 25)
 	recipe:SetCraftedItem(58142, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_MISC")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Elixir of the Naga -- 80480
 	recipe = AddRecipe(80480, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(455, 455, 460, 465, 470)
+	recipe:SetSkillLevels(5, 5, 15, 20, 25)
 	recipe:SetCraftedItem(58089, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -2086,7 +2086,7 @@ function module:InitializeRecipes()
 
 	-- Volcanic Potion -- 80481
 	recipe = AddRecipe(80481, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(460, 460, 465, 470, 475)
+	recipe:SetSkillLevels(10, 10, 20, 25, 30)
 	recipe:SetCraftedItem(58091, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -2094,14 +2094,14 @@ function module:InitializeRecipes()
 
 	-- Potion of Concentration -- 80482
 	recipe = AddRecipe(80482, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(465, 465, 470, 475, 480)
+	recipe:SetSkillLevels(15, 15, 25, 30, 35)
 	recipe:SetCraftedItem(57194, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Elixir of the Cobra -- 80484
 	recipe = AddRecipe(80484, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(465, 465, 470, 475, 480)
+	recipe:SetSkillLevels(15, 15, 25, 30, 35)
 	recipe:SetCraftedItem(58092, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -2109,21 +2109,21 @@ function module:InitializeRecipes()
 
 	-- Deepstone Oil -- 80486
 	recipe = AddRecipe(80486, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(470, 470, 475, 480, 485)
+	recipe:SetSkillLevels(20, 20, 30, 35, 40)
 	recipe:SetCraftedItem(56850, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_OIL")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Mysterious Potion -- 80487
 	recipe = AddRecipe(80487, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(470, 470, 475, 480, 485)
+	recipe:SetSkillLevels(20, 20, 30, 35, 40)
 	recipe:SetCraftedItem(57099, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Elixir of Deep Earth -- 80488
 	recipe = AddRecipe(80488, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(475, 475, 480, 485, 490)
+	recipe:SetSkillLevels(25, 25, 35, 40, 45)
 	recipe:SetCraftedItem(58093, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddFilters(F.TANK)
@@ -2131,14 +2131,14 @@ function module:InitializeRecipes()
 
 	-- Mighty Rejuvenation Potion -- 80490
 	recipe = AddRecipe(80490, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(475, 475, 480, 485, 490)
+	recipe:SetSkillLevels(25, 25, 35, 40, 45)
 	recipe:SetCraftedItem(57193, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Elixir of Impossible Accuracy -- 80491
 	recipe = AddRecipe(80491, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(480, 480, 485, 490, 495)
+	recipe:SetSkillLevels(30, 30, 40, 45, 50)
 	recipe:SetCraftedItem(58094, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -2146,14 +2146,14 @@ function module:InitializeRecipes()
 
 	-- Prismatic Elixir -- 80492
 	recipe = AddRecipe(80492, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(480, 480, 485, 490, 495)
+	recipe:SetSkillLevels(30, 30, 40, 45, 50)
 	recipe:SetCraftedItem(58143, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Elixir of Mighty Speed -- 80493
 	recipe = AddRecipe(80493, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(490, 490, 495, 500, 505)
+	recipe:SetSkillLevels(40, 40, 50, 55, 60)
 	recipe:SetCraftedItem(58144, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -2161,14 +2161,14 @@ function module:InitializeRecipes()
 
 	-- Mythical Mana Potion -- 80494
 	recipe = AddRecipe(80494, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(485, 485, 490, 495, 500)
+	recipe:SetSkillLevels(35, 35, 45, 50, 55)
 	recipe:SetCraftedItem(57192, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Potion of the Tol'vir -- 80495
 	recipe = AddRecipe(80495, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(485, 485, 490, 495, 500)
+	recipe:SetSkillLevels(35, 35, 45, 50, 55)
 	recipe:SetCraftedItem(58145, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddFilters(F.DPS)
@@ -2176,7 +2176,7 @@ function module:InitializeRecipes()
 
 	-- Golemblood Potion -- 80496
 	recipe = AddRecipe(80496, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(490, 490, 495, 500, 505)
+	recipe:SetSkillLevels(40, 40, 50, 55, 60)
 	recipe:SetCraftedItem(58146, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddFilters(F.DPS)
@@ -2184,21 +2184,21 @@ function module:InitializeRecipes()
 
 	-- Elixir of the Master -- 80497
 	recipe = AddRecipe(80497, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(495, 495, 500, 505, 510)
+	recipe:SetSkillLevels(45, 45, 55, 60, 65)
 	recipe:SetCraftedItem(58148, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_ELIXIR")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Mythical Healing Potion -- 80498
 	recipe = AddRecipe(80498, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(495, 495, 500, 505, 510)
+	recipe:SetSkillLevels(45, 45, 55, 60, 65)
 	recipe:SetCraftedItem(57191, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Lifebound Alchemist Stone -- 80508
 	recipe = AddRecipe(80508, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 510, 512, 515)
+	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(58483, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -2206,14 +2206,14 @@ function module:InitializeRecipes()
 
 	-- Flask of Steelskin -- 80719
 	recipe = AddRecipe(80719, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 505, 510, 515)
+	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(58085, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Flask of the Draconic Mind -- 80720
 	recipe = AddRecipe(80720, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(505, 505, 510, 515, 520)
+	recipe:SetSkillLevels(55, 55, 65, 70, 75)
 	recipe:SetCraftedItem(58086, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -2221,7 +2221,7 @@ function module:InitializeRecipes()
 
 	-- Flask of the Winds -- 80721
 	recipe = AddRecipe(80721, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(510, 510, 515, 520, 525)
+	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(58087, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddFilters(F.DPS)
@@ -2229,7 +2229,7 @@ function module:InitializeRecipes()
 
 	-- Flask of Titanic Strength -- 80723
 	recipe = AddRecipe(80723, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(510, 510, 515, 520, 525)
+	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(58088, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddFilters(F.DPS)
@@ -2237,14 +2237,14 @@ function module:InitializeRecipes()
 
 	-- Potion of Deepholm -- 80725
 	recipe = AddRecipe(80725, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 525, 530, 535)
+	recipe:SetSkillLevels(75, 75, 85, 90, 95)
 	recipe:SetCraftedItem(58487, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Potion of Treasure Finding -- 80726
 	recipe = AddRecipe(80726, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 525, 530, 535)
+	recipe:SetSkillLevels(75, 75, 85, 90, 95)
 	recipe:SetCraftedItem(58488, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
@@ -2277,14 +2277,14 @@ function module:InitializeRecipes()
 
 	-- Draught of War -- 93935
 	recipe = AddRecipe(93935, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 440, 450, 460)
+	recipe:SetSkillLevels(1, 1, 11, 16, 21)
 	recipe:SetCraftedItem(67415, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_MISC")
 	recipe:AddTrainer(1386, 2132, 2391, 3009, 3184, 3347, 3603, 4160, 4611, 4900, 5177, 5499, 16588, 16642, 16723, 18802, 19052, 26903, 26951, 26975, 26987, 27023, 27029, 28703, 33588, 33608, 33630, 33674, 56777, 65186, 85905, 86009, 92456, 92458)
 
 	-- Flask of Flowing Water -- 94162
 	recipe = AddRecipe(94162, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 505, 510, 515)
+	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(67438, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -2292,7 +2292,7 @@ function module:InitializeRecipes()
 
 	-- Volatile Alchemist Stone -- 96252
 	recipe = AddRecipe(96252, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 510, 515, 520)
+	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(68775, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddFilters(F.DPS)
@@ -2300,7 +2300,7 @@ function module:InitializeRecipes()
 
 	-- Quicksilver Alchemist Stone -- 96253
 	recipe = AddRecipe(96253, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 510, 515, 520)
+	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(68776, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -2308,7 +2308,7 @@ function module:InitializeRecipes()
 
 	-- Vibrant Alchemist Stone -- 96254
 	recipe = AddRecipe(96254, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 510, 515, 520)
+	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(68777, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
