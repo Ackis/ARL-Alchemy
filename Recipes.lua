@@ -3326,7 +3326,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(127931, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127848, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddMobDrop(80927)
+	recipe:AddMobDrop(95888)
 	recipe:AddCustom("HEROIC")
 
 	-- Flask of the Seventh Demon -- 188342
