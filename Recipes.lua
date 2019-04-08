@@ -4184,6 +4184,14 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddQuest(52334, 52338)
 
+	-- Silas' Sphere of Transmutation -- 260403
+	recipe = AddRecipe(260403, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(150, 150, 150, 150, 150)
+	recipe:SetCraftedItem(156631, "BIND_ON_PICKUP")
+	recipe:SetRecipeItem(166422, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
+	recipe:AddQuest(50112, 50121)
+
 	-- Mystical Cauldron -- 276975
 	recipe = AddRecipe(276975, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(145, 145, 155, 160, 165)
