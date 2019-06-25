@@ -3689,63 +3689,63 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(160322, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Transmute: Herbs to Cloth -- 251306
 	recipe = AddRecipe(251306, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152580, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Transmute: Ore to Herbs -- 251309
 	recipe = AddRecipe(251309, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152578, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Transmute: Ore to Cloth -- 251310
 	recipe = AddRecipe(251310, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152580, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Transmute: Ore to Gems -- 251311
 	recipe = AddRecipe(251311, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152581, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Transmute: Cloth to Skins -- 251314
 	recipe = AddRecipe(251314, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152582, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Transmute: Meat to Pet -- 251808
 	recipe = AddRecipe(251808, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(160325, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Transmute: Fish to Gems -- 251822
 	recipe = AddRecipe(251822, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152581, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Transmute: Expulsom -- 251832
 	recipe = AddRecipe(251832, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(110, 110, 120, 125, 130)
 	recipe:SetCraftedItem(152668, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Steelskin Potion -- 252334
 	recipe = AddRecipe(252334, V.BFA, Q.COMMON)
@@ -3753,7 +3753,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(152557, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddFilters(F.TANK)
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Steelskin Potion -- 252335
 	recipe = AddRecipe(252335, V.BFA, Q.COMMON)
@@ -3761,7 +3761,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(152557, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddFilters(F.TANK)
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Steelskin Potion -- 252336
 	recipe = AddRecipe(252336, V.BFA, Q.COMMON)
@@ -3778,14 +3778,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(40, 40, 50, 55, 60)
 	recipe:SetCraftedItem(152561, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of Replenishment -- 252339
 	recipe = AddRecipe(252339, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(152561, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of Replenishment -- 252340
 	recipe = AddRecipe(252340, V.BFA, Q.COMMON)
@@ -3801,14 +3801,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(40, 40, 50, 55, 60)
 	recipe:SetCraftedItem(152560, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of Bursting Blood -- 252342
 	recipe = AddRecipe(252342, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(152560, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of Bursting Blood -- 252343
 	recipe = AddRecipe(252343, V.BFA, Q.COMMON)
@@ -3824,14 +3824,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(40, 40, 50, 55, 60)
 	recipe:SetCraftedItem(152559, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of Rising Death -- 252345
 	recipe = AddRecipe(252345, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(152559, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of Rising Death -- 252346
 	recipe = AddRecipe(252346, V.BFA, Q.COMMON)
@@ -3848,7 +3848,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(152638, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddFilters(F.DPS)
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Flask of the Currents -- 252349
 	recipe = AddRecipe(252349, V.BFA, Q.COMMON)
@@ -3856,7 +3856,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(152638, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
 	recipe:AddFilters(F.DPS)
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Flask of the Currents -- 252350
 	recipe = AddRecipe(252350, V.BFA, Q.COMMON)
@@ -3873,14 +3873,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(90, 90, 100, 105, 110)
 	recipe:SetCraftedItem(152639, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Flask of Endless Fathoms -- 252352
 	recipe = AddRecipe(252352, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(115, 115, 125, 130, 135)
 	recipe:SetCraftedItem(152639, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Flask of Endless Fathoms -- 252353
 	recipe = AddRecipe(252353, V.BFA, Q.COMMON)
@@ -3896,14 +3896,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(90, 90, 100, 105, 110)
 	recipe:SetCraftedItem(152640, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Flask of the Vast Horizon -- 252355
 	recipe = AddRecipe(252355, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(115, 115, 125, 130, 135)
 	recipe:SetCraftedItem(152640, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Flask of the Vast Horizon -- 252356
 	recipe = AddRecipe(252356, V.BFA, Q.COMMON)
@@ -3919,14 +3919,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(90, 90, 100, 105, 110)
 	recipe:SetCraftedItem(152641, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Flask of the Undertow -- 252358
 	recipe = AddRecipe(252358, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(115, 115, 125, 130, 135)
 	recipe:SetCraftedItem(152641, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Flask of the Undertow -- 252359
 	recipe = AddRecipe(252359, V.BFA, Q.COMMON)
@@ -3942,14 +3942,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(25, 25, 35, 40, 45)
 	recipe:SetCraftedItem(152634, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Endless Tincture of Renewed Combat -- 252362
 	recipe = AddRecipe(252362, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(152634, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Endless Tincture of Renewed Combat -- 252363
 	recipe = AddRecipe(252363, V.BFA, Q.COMMON)
@@ -3964,14 +3964,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(25, 25, 35, 40, 45)
 	recipe:SetCraftedItem(152637, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Siren's Alchemist Stone -- 252369
 	recipe = AddRecipe(252369, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(152637, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Siren's Alchemist Stone -- 252370
 	recipe = AddRecipe(252370, V.BFA, Q.COMMON)
@@ -3986,14 +3986,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(80, 80, 90, 95, 100)
 	recipe:SetCraftedItem(152636, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Endless Tincture of Fractional Power -- 252377
 	recipe = AddRecipe(252377, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(100, 100, 110, 115, 120)
 	recipe:SetCraftedItem(152636, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Endless Tincture of Fractional Power -- 252378
 	recipe = AddRecipe(252378, V.BFA, Q.COMMON)
@@ -4010,7 +4010,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(152632, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Surging Alchemist Stone -- 252380
 	recipe = AddRecipe(252380, V.BFA, Q.COMMON)
@@ -4018,7 +4018,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(152632, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Surging Alchemist Stone -- 252381
 	recipe = AddRecipe(252381, V.BFA, Q.COMMON)
@@ -4042,7 +4042,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(40, 40, 50, 55, 60)
 	recipe:SetCraftedItem(152494, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Coastal Healing Potion -- 252384
 	recipe = AddRecipe(252384, V.BFA, Q.COMMON)
@@ -4065,7 +4065,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(40, 40, 50, 55, 60)
 	recipe:SetCraftedItem(152495, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Coastal Mana Potion -- 252387
 	recipe = AddRecipe(252387, V.BFA, Q.COMMON)
@@ -4081,14 +4081,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 11, 16, 21)
 	recipe:SetCraftedItem(163082, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Coastal Rejuvenation Potion -- 252389
 	recipe = AddRecipe(252389, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(40, 40, 50, 55, 60)
 	recipe:SetCraftedItem(163082, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Coastal Rejuvenation Potion -- 252390
 	recipe = AddRecipe(252390, V.BFA, Q.COMMON)
@@ -4104,14 +4104,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(25, 25, 35, 40, 45)
 	recipe:SetCraftedItem(152496, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Demitri's Draught of Deception -- 252392
 	recipe = AddRecipe(252392, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152496, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Demitri's Draught of Deception -- 252393
 	recipe = AddRecipe(252393, V.BFA, Q.COMMON)
@@ -4125,14 +4125,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(25, 25, 35, 40, 45)
 	recipe:SetCraftedItem(152497, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Lightfoot Potion -- 252395
 	recipe = AddRecipe(252395, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152497, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Lightfoot Potion -- 252396
 	recipe = AddRecipe(252396, V.BFA, Q.COMMON)
@@ -4146,14 +4146,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(25, 25, 35, 40, 45)
 	recipe:SetCraftedItem(152550, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Sea Mist Potion -- 252398
 	recipe = AddRecipe(252398, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152550, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Sea Mist Potion -- 252399
 	recipe = AddRecipe(252399, V.BFA, Q.COMMON)
@@ -4167,14 +4167,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(25, 25, 35, 40, 45)
 	recipe:SetCraftedItem(152503, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of Concealment -- 252401
 	recipe = AddRecipe(252401, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(152503, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of Concealment -- 252402
 	recipe = AddRecipe(252402, V.BFA, Q.COMMON)
@@ -4196,7 +4196,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(145, 145, 155, 160, 165)
 	recipe:SetCraftedItem(162519, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_CAULDRON")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Mystical Cauldron -- 276976
 	recipe = AddRecipe(276976, V.BFA, Q.COMMON)
@@ -4219,21 +4219,21 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(165744, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Battle Potion of Agility -- 279159
 	recipe = AddRecipe(279159, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(163223, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Battle Potion of Agility -- 279160
 	recipe = AddRecipe(279160, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(75, 75, 85, 90, 95)
 	recipe:SetCraftedItem(163223, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Battle Potion of Agility -- 279161
 	recipe = AddRecipe(279161, V.BFA, Q.COMMON)
@@ -4249,14 +4249,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(163222, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Battle Potion of Intellect -- 279163
 	recipe = AddRecipe(279163, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(75, 75, 85, 90, 95)
 	recipe:SetCraftedItem(163222, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Battle Potion of Intellect -- 279164
 	recipe = AddRecipe(279164, V.BFA, Q.COMMON)
@@ -4272,14 +4272,14 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(163225, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Battle Potion of Stamina -- 279166
 	recipe = AddRecipe(279166, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(75, 75, 85, 90, 95)
 	recipe:SetCraftedItem(163225, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Battle Potion of Stamina -- 279167
 	recipe = AddRecipe(279167, V.BFA, Q.COMMON)
@@ -4296,7 +4296,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(163224, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddFilters(F.DPS)
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Battle Potion of Strength -- 279169
 	recipe = AddRecipe(279169, V.BFA, Q.COMMON)
@@ -4304,7 +4304,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(163224, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddFilters(F.DPS)
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Battle Potion of Strength -- 279170
 	recipe = AddRecipe(279170, V.BFA, Q.COMMON)
@@ -4321,21 +4321,21 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(165851, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Sanguinated Dilution -- 286630
 	recipe = AddRecipe(286630, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 11, 16, 21)
 	recipe:SetCraftedItem(162461, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Tidal Alchemist Stone -- 286921
 	recipe = AddRecipe(286921, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(130, 130, 140, 145, 150)
 	recipe:SetCraftedItem(165926, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Spirited Alchemist Stone -- 286922
 	recipe = AddRecipe(286922, V.BFA, Q.COMMON)
@@ -4356,21 +4356,21 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 11, 16, 21)
 	recipe:SetCraftedItem(162460, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRANSMUTE")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Vial of Obfuscation -- 287288
 	recipe = AddRecipe(287288, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(60, 60, 70, 75, 80)
 	recipe:SetCraftedItem(165721, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_MISC")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of the Unveiling Eye -- 287447
 	recipe = AddRecipe(287447, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(50, 50, 60, 65, 70)
 	recipe:SetCraftedItem(166270, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Potion of the Unveiling Eye -- 287448
 	recipe = AddRecipe(287448, V.BFA, Q.COMMON)
@@ -4386,11 +4386,11 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddVendor(142552, 142564)
 
-	-- Potion of Shifting States -- 288176 -- Training
+	-- Potion of Shifting States -- 288176
 	recipe = AddRecipe(288176, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 
-	-- Potion of Durability -- 288182 -- Training
+	-- Potion of Durability -- 288182
 	recipe = AddRecipe(288182, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 
@@ -4399,7 +4399,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(100, 100, 110, 115, 120)
 	recipe:SetCraftedItem(166974, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddTrainer(122703, 132228, 153811)
+	recipe:AddTrainer(122703, 132228, 153811, 154393)
 
 	-- Imbued Alchemist Stone -- 291085
 	recipe = AddRecipe(291085, V.BFA, Q.COMMON)
@@ -4417,19 +4417,19 @@ function module:InitializeRecipes()
 
 	-- Potion of Empowered Proximity -- 298726
 	recipe = AddRecipe(298726, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(125, 125, 135, 140, 145)
+	recipe:SetSkillLevels(145, 145, 155, 160, 165)
 	recipe:SetRecipeItem(169492, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(168529, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Potion of Empowered Proximity -- 298727
 	recipe = AddRecipe(298727, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(140, 140, 150, 155, 160)
+	recipe:SetSkillLevels(160, 160, 170, 175, 180)
 	recipe:SetRecipeItem(169492, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(168529, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Potion of Empowered Proximity -- 298728
 	recipe = AddRecipe(298728, V.BFA, Q.EPIC)
@@ -4442,17 +4442,17 @@ function module:InitializeRecipes()
 
 	-- Superior Battle Potion of Agility -- 298729
 	recipe = AddRecipe(298729, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(135, 135, 145, 150, 155)
-	recipe:SetCraftedItem(168489, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
-
-	-- Superior Battle Potion of Agility -- 298730
-	recipe = AddRecipe(298730, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(150, 150, 160, 165, 170)
 	recipe:SetCraftedItem(168489, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
+
+	-- Superior Battle Potion of Agility -- 298730
+	recipe = AddRecipe(298730, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(165, 165, 175, 180, 185)
+	recipe:SetCraftedItem(168489, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddTrainer(153811, 154393)
 
 	-- Superior Battle Potion of Agility -- 298731
 	recipe = AddRecipe(298731, V.BFA, Q.EPIC)
@@ -4464,17 +4464,17 @@ function module:InitializeRecipes()
 
 	-- Superior Steelskin Potion -- 298734
 	recipe = AddRecipe(298734, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(135, 135, 145, 150, 155)
-	recipe:SetCraftedItem(168501, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
-
-	-- Superior Steelskin Potion -- 298735
-	recipe = AddRecipe(298735, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(150, 150, 160, 165, 170)
 	recipe:SetCraftedItem(168501, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
+
+	-- Superior Steelskin Potion -- 298735
+	recipe = AddRecipe(298735, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(165, 165, 175, 180, 185)
+	recipe:SetCraftedItem(168501, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddTrainer(153811, 154393)
 
 	-- Superior Steelskin Potion -- 298736
 	recipe = AddRecipe(298736, V.BFA, Q.EPIC)
@@ -4484,42 +4484,19 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 	recipe:AddWorldDrop(Z.NAZJATAR)
 
-	-- Potion of Reconstitution -- 298737
-	recipe = AddRecipe(298737, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(125, 125, 135, 140, 145)
-	recipe:SetCraftedItem(168502, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
-
-	-- Potion of Reconstitution -- 298738
-	recipe = AddRecipe(298738, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(140, 140, 150, 155, 160)
-	recipe:SetCraftedItem(168502, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
-
-	-- Potion of Reconstitution -- 298740
-	recipe = AddRecipe(298740, V.BFA, Q.EPIC)
-	recipe:SetSkillLevels(155, 155, 175, 175, 175)
-	recipe:SetRecipeItem(169493, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(168502, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddRepVendor(FAC.ANKOAN, REP.REVERED, 154140)
-	recipe:AddRepVendor(FAC.UNSHACKLED, REP.REVERED, 153512)
-
 	-- Superior Battle Potion of Intellect -- 298741
 	recipe = AddRecipe(298741, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(135, 135, 145, 150, 155)
-	recipe:SetCraftedItem(168498, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
-
-	-- Superior Battle Potion of Intellect -- 298742
-	recipe = AddRecipe(298742, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(150, 150, 160, 165, 170)
 	recipe:SetCraftedItem(168498, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
+
+	-- Superior Battle Potion of Intellect -- 298742
+	recipe = AddRecipe(298742, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(165, 165, 175, 180, 185)
+	recipe:SetCraftedItem(168498, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddTrainer(153811, 154393)
 
 	-- Superior Battle Potion of Intellect -- 298743
 	recipe = AddRecipe(298743, V.BFA, Q.EPIC)
@@ -4531,19 +4508,17 @@ function module:InitializeRecipes()
 
 	-- Potion of Focused Resolve -- 298744
 	recipe = AddRecipe(298744, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(125, 125, 135, 140, 145)
-	recipe:SetRecipeItem(169494, "BIND_ON_EQUIP")
+	recipe:SetSkillLevels(145, 145, 155, 160, 165)
 	recipe:SetCraftedItem(168506, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Potion of Focused Resolve -- 298745
 	recipe = AddRecipe(298745, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(140, 140, 150, 155, 160)
-	recipe:SetRecipeItem(169494, "BIND_ON_EQUIP")
+	recipe:SetSkillLevels(160, 160, 170, 175, 180)
 	recipe:SetCraftedItem(168506, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Potion of Focused Resolve -- 298746
 	recipe = AddRecipe(298746, V.BFA, Q.EPIC)
@@ -4555,17 +4530,17 @@ function module:InitializeRecipes()
 
 	-- Superior Battle Potion of Stamina -- 298747
 	recipe = AddRecipe(298747, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(135, 135, 145, 150, 155)
-	recipe:SetCraftedItem(168499, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
-
-	-- Superior Battle Potion of Stamina -- 298748
-	recipe = AddRecipe(298748, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(150, 150, 160, 165, 170)
 	recipe:SetCraftedItem(168499, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
+
+	-- Superior Battle Potion of Stamina -- 298748
+	recipe = AddRecipe(298748, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(165, 165, 175, 180, 185)
+	recipe:SetCraftedItem(168499, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddTrainer(153811, 154393)
 
 	-- Superior Battle Potion of Stamina -- 298749
 	recipe = AddRecipe(298749, V.BFA, Q.EPIC)
@@ -4577,17 +4552,17 @@ function module:InitializeRecipes()
 
 	-- Superior Battle Potion of Strength -- 298750
 	recipe = AddRecipe(298750, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(135, 135, 145, 150, 155)
-	recipe:SetCraftedItem(168500, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
-
-	-- Superior Battle Potion of Strength -- 298751
-	recipe = AddRecipe(298751, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(150, 150, 160, 165, 170)
 	recipe:SetCraftedItem(168500, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
+
+	-- Superior Battle Potion of Strength -- 298751
+	recipe = AddRecipe(298751, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(165, 165, 175, 180, 185)
+	recipe:SetCraftedItem(168500, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddTrainer(153811, 154393)
 
 	-- Superior Battle Potion of Strength -- 298752
 	recipe = AddRecipe(298752, V.BFA, Q.EPIC)
@@ -4599,17 +4574,17 @@ function module:InitializeRecipes()
 
 	-- Greater Flask of the Currents -- 298842
 	recipe = AddRecipe(298842, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(145, 145, 155, 160, 165)
+	recipe:SetSkillLevels(155, 155, 165, 170, 175)
 	recipe:SetCraftedItem(168651, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Flask of the Currents -- 298843
 	recipe = AddRecipe(298843, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(160, 160, 170, 175, 180)
+	recipe:SetSkillLevels(170, 170, 180, 185, 190)
 	recipe:SetCraftedItem(168651, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Flask of the Currents -- 298845
 	recipe = AddRecipe(298845, V.BFA, Q.EPIC)
@@ -4617,21 +4592,20 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(169500, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(168651, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
---Needs updating
 
 	-- Greater Flask of Endless Fathoms -- 298846
 	recipe = AddRecipe(298846, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(145, 145, 155, 160, 165)
+	recipe:SetSkillLevels(155, 155, 165, 170, 175)
 	recipe:SetCraftedItem(168652, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Flask of Endless Fathoms -- 298847
 	recipe = AddRecipe(298847, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(160, 160, 170, 175, 180)
+	recipe:SetSkillLevels(170, 170, 180, 185, 190)
 	recipe:SetCraftedItem(168652, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Flask of Endless Fathoms -- 298848
 	recipe = AddRecipe(298848, V.BFA, Q.EPIC)
@@ -4639,21 +4613,20 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(169501, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(168652, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
---Needs updating
 
 	-- Greater Flask of the Vast Horizon -- 298850
 	recipe = AddRecipe(298850, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(145, 145, 155, 160, 165)
+	recipe:SetSkillLevels(155, 155, 165, 170, 175)
 	recipe:SetCraftedItem(168653, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Flask of the Vast Horizon -- 298851
 	recipe = AddRecipe(298851, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(160, 160, 170, 175, 180)
+	recipe:SetSkillLevels(170, 170, 180, 185, 190)
 	recipe:SetCraftedItem(168653, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Flask of the Vast Horizon -- 298852
 	recipe = AddRecipe(298852, V.BFA, Q.EPIC)
@@ -4661,21 +4634,20 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(169502, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(168653, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
---Needs updating
 
 	-- Greater Flask of the Undertow -- 298853
 	recipe = AddRecipe(298853, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(145, 145, 155, 160, 165)
+	recipe:SetSkillLevels(155, 155, 165, 170, 175)
 	recipe:SetCraftedItem(168654, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Flask of the Undertow -- 298854
 	recipe = AddRecipe(298854, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(160, 160, 170, 175, 180)
+	recipe:SetSkillLevels(170, 170, 180, 185, 190)
 	recipe:SetCraftedItem(168654, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Flask of the Undertow -- 298855
 	recipe = AddRecipe(298855, V.BFA, Q.EPIC)
@@ -4683,7 +4655,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(169503, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(168654, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_FLASK")
---Needs updating
 
 	-- Greater Mystical Cauldron -- 298862
 	recipe = AddRecipe(298862, V.BFA, Q.COMMON)
@@ -4691,7 +4662,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(169504, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(168656, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_CAULDRON")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Mystical Cauldron -- 298863
 	recipe = AddRecipe(298863, V.BFA, Q.COMMON)
@@ -4699,7 +4670,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(169504, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(168656, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_CAULDRON")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Greater Mystical Cauldron -- 298864
 	recipe = AddRecipe(298864, V.BFA, Q.EPIC)
@@ -4711,10 +4682,10 @@ function module:InitializeRecipes()
 
 	-- Abyssal Alchemist Stone -- 298995
 	recipe = AddRecipe(298995, V.BFA, Q.EPIC)
-	recipe:SetSkillLevels(170, 170, 180, 185, 190)
+	recipe:SetSkillLevels(165, 165, 175, 180, 185)
 	recipe:SetCraftedItem(168674, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_TRINKET")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Crushing Alchemist Stone -- 298996
 	recipe = AddRecipe(298996, V.BFA, Q.COMMON)
@@ -4734,66 +4705,63 @@ function module:InitializeRecipes()
 
 	-- Potion of Unbridled Fury -- 300749
 	recipe = AddRecipe(300749, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(125, 125, 135, 140, 145)
+	recipe:SetSkillLevels(145, 145, 155, 160, 165)
 	recipe:SetCraftedItem(169299, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Potion of Unbridled Fury -- 300750
 	recipe = AddRecipe(300750, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(140, 140, 150, 155, 160)
+	recipe:SetSkillLevels(160, 160, 170, 175, 180)
 	recipe:SetCraftedItem(169299, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Potion of Unbridled Fury -- 300751
 	recipe = AddRecipe(300751, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(140, 140, 175, 175, 175)
 	recipe:SetCraftedItem(169299, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
--- Needs updating
 
 	-- Potion of Wild Mending -- 300752
 	recipe = AddRecipe(300752, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(125, 125, 135, 140, 145)
+	recipe:SetSkillLevels(145, 145, 155, 160, 165)
 	recipe:SetCraftedItem(169300, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Potion of Wild Mending -- 300753
 	recipe = AddRecipe(300753, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(140, 140, 150, 155, 160)
+	recipe:SetSkillLevels(160, 160, 170, 175, 180)
 	recipe:SetCraftedItem(169300, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
 
 	-- Potion of Wild Mending -- 300754
 	recipe = AddRecipe(300754, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(140, 140, 175, 175, 175)
 	recipe:SetCraftedItem(169300, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
--- Needs updating
 
 	-- Abyssal Healing Potion -- 301310
 	recipe = AddRecipe(301310, V.BFA, Q.COMMON)
-	recipe:SetSkillLevels(125, 125, 135, 140, 145)
-	recipe:SetCraftedItem(169451, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
-
-	-- Abyssal Healing Potion -- 301311
-	recipe = AddRecipe(301311, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(145, 145, 155, 160, 165)
 	recipe:SetCraftedItem(169451, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
-	recipe:AddTrainer(153811)
+	recipe:AddTrainer(153811, 154393)
+
+	-- Abyssal Healing Potion -- 301311
+	recipe = AddRecipe(301311, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(160, 160, 170, 175, 180)
+	recipe:SetCraftedItem(169451, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("ALCHEMY_POTION")
+	recipe:AddTrainer(153811, 154393)
 
 	-- Abyssal Healing Potion -- 301312
 	recipe = AddRecipe(301312, V.BFA, Q.COMMON)
 	recipe:SetSkillLevels(145, 145, 175, 175, 175)
 	recipe:SetCraftedItem(169451, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
--- Needs updating
 
 	self.InitializeRecipes = nil
 end
