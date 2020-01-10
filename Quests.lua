@@ -50,6 +50,14 @@ function module:InitializeQuests()
 	AddQuest(52338,	Z.VOLDUN,				56.6,	49.8,	"Horde") -- World Quest
 	AddQuest(50112,	Z.DAZARALOR,				42.2,	38.0,	"Horde")
 	AddQuest(50121,	Z.BORALUS,				74.2,	6.6,	"Alliance")
+	AddQuest(56570,	Z.NAZJATAR,				38.0,	55.6,	"Alliance") -- World Quest
+	AddQuest(56767,	Z.NAZJATAR,				38.0,	55.6,	"Alliance") -- World Quest
+	AddQuest(56768,	Z.NAZJATAR,				38.0,	55.6,	"Alliance") -- World Quest
+	AddQuest(56769,	Z.NAZJATAR,				38.0,	55.6,	"Alliance") -- World Quest
+	AddQuest(56770,	Z.NAZJATAR,				50.8,	65.2,	"Horde") -- World Quest
+	AddQuest(56772,	Z.NAZJATAR,				50.8,	65.2,	"Horde") -- World Quest
+	AddQuest(56773,	Z.NAZJATAR,				50.8,	65.2,	"Horde") -- World Quest
+	AddQuest(56774,	Z.NAZJATAR,				50.8,	65.2,	"Horde") -- World Quest
 
 	self.InitializeQuests = nil
 end
