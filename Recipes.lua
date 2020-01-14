@@ -4763,5 +4763,38 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(169451, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("ALCHEMY_POTION")
 
+-- 8.3
+	-- Peerless Alchemist Stone -- 305992
+	recipe = AddRecipe(305992, V.BFA, Q.EPIC)
+	recipe:SetSkillLevels(165, 165, 180, 185, 190)
+	recipe:SetRecipeItem(171084, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(171085, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_TRINKET")
+	recipe:AddDiscovery("DISCOVERY_ALCH_BFA")
+
+	-- Awakened Alchemist Stone -- 305993
+	recipe = AddRecipe(305993, V.BFA, Q.EPIC)
+	recipe:SetSkillLevels(165, 165, 180, 185, 190)
+	recipe:SetRecipeItem(171086, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(171087, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_TRINKET")
+	recipe:AddDiscovery("DISCOVERY_ALCH_BFA")
+
+	-- Unbound Alchemist Stone -- 305994
+	recipe = AddRecipe(305994, V.BFA, Q.RARE)
+	recipe:SetSkillLevels(165, 165, 180, 185, 190)
+	recipe:SetRecipeItem(171318, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(171088, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_TRINKET")
+	recipe:AddMobDrop(153910, 162245)
+
+	-- Void Focus -- 307172
+	recipe = AddRecipe(307172, V.BFA, Q.COMMON)
+	recipe:SetSkillLevels(175, 175, 200, 200, 200)
+	recipe:SetRecipeItem(171312, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(171320, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("ALCHEMY_MISC")
+	recipe:AddMobDrop(153910, 162245)
+
 	self.InitializeRecipes = nil
 end
